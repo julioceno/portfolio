@@ -1,10 +1,11 @@
-import { Toggle } from "./components";
+import { Menu, Toggle } from "./components";
 
 function Header() {
   return (
-    <div className="flex pt-10">
+    <header className="flex pt-10 justify-between">
       <Toggle />
-    </div>
+      <Menu />
+    </header>
   );
 }
 

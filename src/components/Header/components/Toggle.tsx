@@ -6,7 +6,7 @@ function toggleDarkMode() {
 
 export function Toggle() {
   return (
-    <label className="flex justify-between group items-center p-2">
+    <label className="flex justify-between group items-center">
       <input
         type="checkbox"
         className="appearance-none peer"
