@@ -3,7 +3,7 @@ import { LandingPage } from "../pages";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <LandingPage />,
     errorElement: <div>Rota não encontrada</div>,
     children: [

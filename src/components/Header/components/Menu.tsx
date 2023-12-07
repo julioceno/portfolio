@@ -6,7 +6,7 @@ import {
   User,
   Users,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export function Menu() {
   const [isOpen, setIsOpen] = useState(false);
