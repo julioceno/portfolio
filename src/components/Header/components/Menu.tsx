@@ -6,7 +6,7 @@ import {
   User,
   Users,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ export function Menu() {
         />
       </button>
       {isOpen && (
-        <nav className="w-[10rem] rounded bg-gray-200 dark:bg-dark-second-black mt-3 right-1 inline-block absolute ">
+        <nav className="rounded bg-gray-200 dark:bg-dark-second-black mt-3 right-1 inline-block absolute font-poppins z-20">
           <ul className="text-1xl text-main-black dark:text-main-white">
             <li className="">
               <a

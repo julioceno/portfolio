@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
@@ -14,6 +16,9 @@ export default {
 
         "main-blue": "#4477CE",
       },
+    },
+    fontFamily: {
+      poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
     },
   },
   plugins: [],
