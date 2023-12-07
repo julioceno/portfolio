@@ -8,6 +8,7 @@ export default {
         "main-black": "#0F0F0F",
         "dark-main-black": "#181823",
         "dark-second-black": "#2F2E41",
+        "dark-hover-black": "#232235",
 
         "main-white": "#FFFAFA",
 
