@@ -7,7 +7,51 @@ import {
   User,
   Users,
 } from "lucide-react";
-import { useState } from "react";
+import { ReactNode, useState } from "react";
+
+interface MenuItem {
+  icon: ReactNode;
+  label: string;
+  href: string;
+}
+
+const menuList: MenuItem[] = [
+  {
+    icon: <Home size={20} />,
+    label: "Home",
+    href: "/portfolio",
+  },
+  {
+    icon: <User size={20} />,
+    label: "Sobre",
+    href: "/portfolio/#",
+  },
+  {
+    icon: <Users size={20} />,
+    label: "Recomendações",
+    href: "/portfolio/#",
+  },
+  {
+    icon: <FolderKanban size={20} />,
+    label: "Projetos",
+    href: "/portfolio/#",
+  },
+  {
+    icon: <GraduationCap size={20} />,
+    label: "Cursos",
+    href: "/portfolio/#",
+  },
+  {
+    icon: <Send size={20} />,
+    label: "Contato",
+    href: "/portfolio/#",
+  },
+  {
+    icon: <Briefcase size={20} />,
+    label: "Experiência profissional",
+    href: "/portfolio/#",
+  },
+];
 
 export function Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,83 +79,17 @@ export function Menu() {
       {isOpen && (
         <nav className="rounded bg-gray-200 dark:bg-dark-second-black mt-3 right-1 inline-block absolute font-poppins z-20">
           <ul className="text-1xl text-main-black dark:text-main-white">
-            <li>
-              <a
-                href="/"
-                className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-              >
-                <span>
-                  <Home size={20} />
-                </span>
-                Landing Page
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-              >
-                <span>
-                  <User size={20} />
-                </span>
-                Sobre
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-              >
-                <span>
-                  <Users size={20} />
-                </span>
-                Recomendações
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-              >
-                <span>
-                  <FolderKanban size={20} />
-                </span>
-                Projetos
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-              >
-                <span>
-                  <GraduationCap size={20} />
-                </span>
-                Cursos
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-              >
-                <span>
-                  <Send size={20} />
-                </span>
-                Contato
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-              >
-                <span>
-                  <Briefcase size={20} />
-                </span>
-                Experiência profissional
-              </a>
-            </li>
+            {menuList.map((item) => (
+              <li>
+                <a
+                  href={item.href}
+                  className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
+                >
+                  <span>{item.icon}</span>
+                  {item.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </nav>
       )}
