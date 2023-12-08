@@ -2,6 +2,7 @@ import {
   Briefcase,
   FolderKanban,
   GraduationCap,
+  Home,
   Send,
   User,
   Users,
@@ -34,7 +35,18 @@ export function Menu() {
       {isOpen && (
         <nav className="rounded bg-gray-200 dark:bg-dark-second-black mt-3 right-1 inline-block absolute font-poppins z-20">
           <ul className="text-1xl text-main-black dark:text-main-white">
-            <li className="">
+            <li>
+              <a
+                href="/"
+                className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
+              >
+                <span>
+                  <Home size={20} />
+                </span>
+                Landing Page
+              </a>
+            </li>
+            <li>
               <a
                 href="#"
                 className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
@@ -42,10 +54,10 @@ export function Menu() {
                 <span>
                   <User size={20} />
                 </span>
-                Quem sou eu
+                Sobre
               </a>
             </li>
-            <li className="">
+            <li>
               <a
                 href="#"
                 className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
@@ -56,7 +68,7 @@ export function Menu() {
                 Recomendações
               </a>
             </li>
-            <li className="">
+            <li>
               <a
                 href="#"
                 className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
@@ -67,7 +79,7 @@ export function Menu() {
                 Projetos
               </a>
             </li>
-            <li className="">
+            <li>
               <a
                 href="#"
                 className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
@@ -78,7 +90,7 @@ export function Menu() {
                 Cursos
               </a>
             </li>
-            <li className="">
+            <li>
               <a
                 href="#"
                 className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
@@ -89,7 +101,7 @@ export function Menu() {
                 Contato
               </a>
             </li>
-            <li className="">
+            <li>
               <a
                 href="#"
                 className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "

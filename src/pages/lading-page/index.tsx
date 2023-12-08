@@ -1,8 +1,18 @@
 import { Header } from "../../components";
+import MainIcon from "../../../public/main-icon.svg";
+import "./style.css";
+import { themeStore } from "../../components/Header/store";
+import { observer } from "mobx-react-lite";
 
-function LandingPage() {
+const LandingPage = observer(() => {
+  const isDarkMode = themeStore.theme === "dark";
+
+  const classTextShadow = isDarkMode
+    ? "text-with-shadow-dark"
+    : "text-with-shadow";
+
   return (
-    <div className="bg-main-white dark:bg-dark-main-black h-screen px-10 xl:px-48 flex flex-col">
+    <div className="bg-main-white dark:bg-dark-main-black min-h-screen pb-4 px-10 xl:px-48 flex flex-col">
       <Header />
       <div className="flex-1 flex justify-center items-center">
         <main className=" flex flex-col items-center gap-10 md:grid grid-cols-2 ">
@@ -19,11 +29,13 @@ function LandingPage() {
             </button>
           </div>
           <img
-            src="public/main-icon.svg"
+            src={MainIcon}
             alt="Imagem principal"
             className="w-[18rem] md:w-[30rem] md:place-self-end row-span-2"
           />
-          <p className="text-center md:text-left text-md text-main-black dark:text-main-white leading-6 font-poppins drop-shadow-lg lg:w-7/12">
+          <p
+            className={`text-center md:text-left text-md text-main-black dark:text-main-white leading-6 font-poppins lg:w-7/12 ${classTextShadow}`}
+          >
             Sou um desenvolvedor de software focado na resolução de problemas,
             acostumado em trabalhar com metodologias ágeis. Minha paixão está em
             transformar desafios em soluções eficientes, sempre em busca da
@@ -33,6 +45,6 @@ function LandingPage() {
       </div>
     </div>
   );
-}
+});
 
 export { LandingPage };
