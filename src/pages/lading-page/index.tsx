@@ -19,7 +19,7 @@ function LandingPage() {
             </button>
           </div>
           <img
-            src="./public/main-icon.svg"
+            src="/public/main-icon.svg"
             alt="Imagem principal"
             className="w-[18rem] md:w-[30rem] md:place-self-end row-span-2"
           />
