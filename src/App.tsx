@@ -1,8 +1,15 @@
-import { RouterProvider } from "react-router-dom";
-import { router } from "./routes";
+import { BrowserRouter, Route, RouterProvider, Routes } from "react-router-dom";
+import { LandingPage } from "./pages";
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/portfolio" element={<LandingPage />} />
+        <Route path="/portfolio/test" element={<div>aaa</div>} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
