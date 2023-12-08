@@ -18,7 +18,7 @@ interface MenuItem {
 const menuList: MenuItem[] = [
   {
     icon: <Home size={20} />,
-    label: "Home",
+    label: "Início",
     href: "/portfolio",
   },
   {
