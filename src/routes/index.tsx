@@ -1,18 +1,22 @@
-import { createBrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { LandingPage } from "../pages";
+import { list } from "./MenuList";
 
-const router = createBrowserRouter([
-  {
-    path: "/portfolio",
-    element: <LandingPage />,
-    errorElement: <div>Rota não encontrada</div>,
-    children: [
-      {
-        path: "/test",
-        element: <div className="t">Hello world!</div>,
-      },
-    ],
-  },
-]);
+function RoutesComponent() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/portfolio" element={<LandingPage />} />
+        {list.map((item, index) => (
+          <Route
+            path={item.path}
+            element={item.element}
+            key={`${index}-${item.path}`}
+          />
+        ))}
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-export { router };
+export { RoutesComponent };

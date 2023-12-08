@@ -8,6 +8,7 @@ import {
   Users,
 } from "lucide-react";
 import { ReactNode, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 interface MenuItem {
   icon: ReactNode;
@@ -24,7 +25,7 @@ const menuList: MenuItem[] = [
   {
     icon: <User size={20} />,
     label: "Sobre",
-    href: "/portfolio/#",
+    href: "/portfolio/about",
   },
   {
     icon: <Users size={20} />,
@@ -76,23 +77,31 @@ export function Menu() {
           }`}
         />
       </button>
-      {isOpen && (
-        <nav className="rounded bg-gray-200 dark:bg-dark-second-black mt-3 right-1 inline-block absolute font-poppins z-20">
-          <ul className="text-1xl text-main-black dark:text-main-white">
-            {menuList.map((item) => (
-              <li>
-                <a
-                  href={item.href}
-                  className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-                >
-                  <span>{item.icon}</span>
-                  {item.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      )}
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.nav
+            initial={{ y: 60 }}
+            animate={{ y: 10 }}
+            exit={{ opacity: 0 }}
+            className="rounded bg-gray-200 dark:bg-dark-second-black right-1 inline-block absolute font-poppins z-20"
+          >
+            <ul className="text-1xl text-main-black dark:text-main-white">
+              {menuList.map((item) => (
+                <li>
+                  <a
+                    href={item.href}
+                    className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
+                  >
+                    <span>{item.icon}</span>
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </motion.nav>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
