@@ -84,7 +84,7 @@ export function Menu() {
             initial={{ y: 60 }}
             animate={{ y: 10 }}
             exit={{ opacity: 0 }}
-            className="rounded bg-gray-200 dark:bg-dark-second-black right-1 inline-block absolute font-poppins z-20"
+            className="rounded bg-gray-200 dark:bg-dark-second-black right-1 inline-block absolute font-poppins z-1000"
           >
             <ul className="text-1xl text-main-black dark:text-main-white">
               {menuList.map((item) => (
