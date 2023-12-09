@@ -57,12 +57,12 @@ const menuList: MenuItem[] = [
 export function Menu() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const genericHamburgerLine = `h-[.3rem] w-10 my-1 rounded-full bg-main-black dark:bg-main-white duration-300`;
+  const genericHamburgerLine = `h-[.2rem] md:h-[.3rem] w-7 md:w-10 my-1 rounded-full bg-main-black dark:bg-main-white duration-300`;
 
   return (
     <div className="relative">
       <button
-        className="h-16 w-16 bg-gray-200 hover:bg-gray-300 dark:bg-dark-second-black dark:hover:bg-dark-hover-black rounded-full flex flex-col justify-center items-center"
+        className="h-12 md:h-16 w-12 md:w-16 bg-gray-200 hover:bg-gray-300 dark:bg-dark-second-black dark:hover:bg-dark-hover-black rounded-full flex flex-col justify-center items-center"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div
@@ -87,7 +87,7 @@ export function Menu() {
               exit={{ opacity: 0 }}
               className="rounded bg-gray-200 dark:bg-dark-second-black right-1 absolute inline-block font-poppins z-1000"
             >
-              <ul className="text-1xl text-main-black dark:text-main-white">
+              <ul className="text-main-black dark:text-main-white">
                 {menuList.map((item) => (
                   <li>
                     <a
