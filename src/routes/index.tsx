@@ -1,12 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { LandingPage } from "../pages";
 import { list } from "./MenuList";
 
 function RoutesComponent() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
-        <Route path="/portfolio" element={<LandingPage />} />
         {list.map((item, index) => (
           <Route
             path={item.path}
