@@ -12,7 +12,7 @@ export function Footer() {
   }, []);
 
   return (
-    <footer className="bg-main-blue dark:bg-dark-main-blue h-28 py-3 text-main-white font-poppins flex flex-col justify-end gap-2">
+    <footer className="bg-main-blue dark:bg-dark-main-blue min-h-28 py-3 text-main-white font-poppins flex flex-col justify-end gap-2">
       <div className="flex justify-center">
         <ul className="flex gap-2">
           <li className="hover:bg-black/30 p-1 rounded-sm cursor-pointer">
@@ -33,7 +33,7 @@ export function Footer() {
         </ul>
       </div>
       <div className="flex justify-center">
-        <p className="text-sm justify-center">
+        <p className="text-sm justify-center items-center text-center">
           Desenvolvido com{" "}
           <HeartIcon
             size={20}
@@ -41,7 +41,7 @@ export function Footer() {
           />{" "}
           por{" "}
           <a
-            className="text-white underline font-medium tracking-wider cursor-pointer"
+            className="text-white underline font-medium tracking-wider cursor-pointer hover:text-blue-300"
             href="https://www.linkedin.com/in/julioceno/"
             target="_blank"
           >

@@ -17,6 +17,9 @@ export default {
         "main-blue": "#4477CE",
         "dark-main-blue": "#0944A8",
       },
+      minHeight: {
+        28: "7rem",
+      },
     },
     fontFamily: {
       poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
