@@ -20,12 +20,12 @@ const menuList: MenuItem[] = [
   {
     icon: <Home size={20} />,
     label: "Início",
-    href: "/portfolio",
+    href: "/",
   },
   {
     icon: <User size={20} />,
     label: "Sobre",
-    href: "/portfolio/about",
+    href: "/about",
   },
   {
     icon: <Users size={20} />,

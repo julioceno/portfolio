@@ -3,7 +3,7 @@ import { list } from "./MenuList";
 
 function RoutesComponent() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <Routes>
         {list.map((item, index) => (
           <Route
