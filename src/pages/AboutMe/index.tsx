@@ -7,8 +7,6 @@ import { Header } from "../../components";
 import { Footer } from "../../components/Footer";
 import { useFollowPointer } from "./hooks";
 
-import "./style.css";
-
 export function AboutMe() {
   const ref = useRef(null);
   const { x, y } = useFollowPointer(ref);
