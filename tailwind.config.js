@@ -15,6 +15,7 @@ export default {
         "main-white": "#FFFAFA",
 
         "main-blue": "#4477CE",
+        "dark-main-blue": "#0944A8",
       },
     },
     fontFamily: {

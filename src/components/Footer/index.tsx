@@ -1,0 +1,57 @@
+import { Github, HeartIcon, Instagram, Linkedin } from "lucide-react";
+import { useEffect, useState } from "react";
+
+export function Footer() {
+  const [year, setYear] = useState<number>();
+
+  useEffect(() => {
+    const date = new Date();
+    const currentYear = date.getFullYear();
+
+    setYear(currentYear);
+  }, []);
+
+  return (
+    <footer className="bg-main-blue dark:bg-dark-main-blue h-28 py-3 text-main-white font-poppins flex flex-col justify-end gap-2">
+      <div className="flex justify-center">
+        <ul className="flex gap-2">
+          <li className="hover:bg-black/30 p-1 rounded-sm cursor-pointer">
+            <a href="https://www.linkedin.com/in/julioceno/" target="_blank">
+              <Linkedin />
+            </a>
+          </li>
+          <li className="hover:bg-black/30 p-1 rounded-sm cursor-pointer">
+            <a href="https://github.com/julioceno/" target="_blank">
+              <Github />
+            </a>
+          </li>
+          <li className="hover:bg-black/30 p-1 rounded-sm cursor-pointer">
+            <a href="https://www.instagram.com/ceno7_/" target="_blank">
+              <Instagram />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="flex justify-center">
+        <p className="text-sm justify-center">
+          Desenvolvido com{" "}
+          <HeartIcon
+            size={20}
+            className="fill-red-600 text-main-black inline-block"
+          />{" "}
+          por{" "}
+          <a
+            className="text-white underline font-medium tracking-wider cursor-pointer"
+            href="https://www.linkedin.com/in/julioceno/"
+            target="_blank"
+          >
+            Júlio Nepomuceno
+          </a>
+        </p>
+      </div>
+      <p className="flex text-xs font-light justify-center">
+        &copy; {year} Todos os direitos reservados
+      </p>
+    </footer>
+  );
+}
