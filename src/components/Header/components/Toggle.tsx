@@ -19,7 +19,7 @@ export function Toggle() {
         onClick={toggleDarkMode}
         defaultChecked={isDarkMode}
       />
-      <span className="w-24 h-8 flex items-center flex-shrink-0 bg-gray-300 dark:bg-dark-second-black rounded-full after:w-14 after:h-8 after:bg-main-black dark:after:bg-main-white after:rounded-full ease-in-out after:duration-200 peer-checked:after:translate-x-10 md:group-hover:after:translate-x-1 md:group-hover:peer-checked:after:translate-x-9" />
+      <span className="w-16 md:w-24 h-6 md:h-8 flex items-center flex-shrink-0 bg-gray-300 dark:bg-dark-second-black rounded-full after:w-10 md:after:w-14 after:h-6 md:after:h-8 after:bg-main-black dark:after:bg-main-white after:rounded-full ease-in-out after:duration-200 peer-checked:after:translate-x-6 md:peer-checked:after:translate-x-10 md:group-hover:after:translate-x-1 md:group-hover:peer-checked:after:translate-x-9" />
     </label>
   );
 }
