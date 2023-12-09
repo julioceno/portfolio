@@ -14,7 +14,7 @@ const LandingPage = observer(() => {
   return (
     <div className="bg-main-white dark:bg-dark-main-black min-h-screen pb-4 px-10 xl:px-48 flex flex-col">
       <Header />
-      <div className="flex-1 flex justify-center items-center">
+      <div className="flex-1 flex justify-center items-center mt-5 md:mt-0">
         <main className=" flex flex-col items-center gap-10 md:grid grid-cols-2 ">
           <div className="flex flex-col items-center md:items-start gap-3 grid-col-2">
             <h1 className="text-4xl lg:text-5xl xl:text6xl text-main-black dark:text-main-white font-medium text-center md:text-left font-poppins">

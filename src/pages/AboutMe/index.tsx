@@ -26,7 +26,7 @@ export function AboutMe() {
                 stiffness: 30,
                 restDelta: 0.001,
               }}
-              className="p-1 w-20 sm:w-48  translate-x-10 rounded-lg image-with-shadow"
+              className="p-1 w-20 sm:w-48 rounded-lg image-with-shadow"
             />
             <motion.img
               src={ProfileImage}
@@ -49,7 +49,7 @@ export function AboutMe() {
                 stiffness: 30,
                 restDelta: 0.001,
               }}
-              className="p-1 w-20 sm:w-48  translate-x-10 rounded-lg image-with-shadow"
+              className="p-1 w-20 sm:w-48 rounded-lg image-with-shadow"
             />
           </div>
           <div className="flex flex-col gap-6">

@@ -80,26 +80,28 @@ export function Menu() {
 
       <AnimatePresence>
         {isOpen && (
-          <motion.nav
-            initial={{ y: 60 }}
-            animate={{ y: 10 }}
-            exit={{ opacity: 0 }}
-            className="rounded bg-gray-200 dark:bg-dark-second-black right-1 inline-block absolute font-poppins z-1000"
-          >
-            <ul className="text-1xl text-main-black dark:text-main-white">
-              {menuList.map((item) => (
-                <li>
-                  <a
-                    href={item.href}
-                    className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
-                  >
-                    <span>{item.icon}</span>
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </motion.nav>
+          <div className="relative z-10">
+            <motion.nav
+              initial={{ y: 60 }}
+              animate={{ y: 10 }}
+              exit={{ opacity: 0 }}
+              className="rounded bg-gray-200 dark:bg-dark-second-black right-1 absolute inline-block font-poppins z-1000"
+            >
+              <ul className="text-1xl text-main-black dark:text-main-white">
+                {menuList.map((item) => (
+                  <li>
+                    <a
+                      href={item.href}
+                      className="flex gap-1 px-3 py-2 hover:bg-gray-300 dark:hover:bg-dark-hover-black "
+                    >
+                      <span>{item.icon}</span>
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </motion.nav>
+          </div>
         )}
       </AnimatePresence>
     </div>
