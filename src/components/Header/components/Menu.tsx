@@ -25,32 +25,32 @@ const menuList: MenuItem[] = [
   {
     icon: <User size={20} />,
     label: "Sobre",
-    href: "/portfolio/about",
+    href: "/about",
   },
   {
     icon: <Users size={20} />,
     label: "Recomendações",
-    href: "/portfolio/#",
+    href: "/#",
   },
   {
     icon: <FolderKanban size={20} />,
     label: "Projetos",
-    href: "/portfolio/#",
+    href: "/#",
   },
   {
     icon: <GraduationCap size={20} />,
     label: "Cursos",
-    href: "/portfolio/#",
+    href: "/#",
   },
   {
     icon: <Send size={20} />,
     label: "Contato",
-    href: "/portfolio/#",
+    href: "/#",
   },
   {
     icon: <Briefcase size={20} />,
     label: "Experiência profissional",
-    href: "/portfolio/#",
+    href: "/#",
   },
 ];
 
