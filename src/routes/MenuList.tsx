@@ -1,4 +1,5 @@
 import { AboutMe, LandingPage } from "../pages";
+import { NotFound } from "../pages/NotFound";
 
 export const list = [
   {
@@ -10,7 +11,23 @@ export const list = [
     element: <AboutMe />,
   },
   {
-    path: "/test",
-    element: <div>Teste</div>,
+    path: "/recommendations",
+    element: <NotFound />,
+  },
+  {
+    path: "/projects",
+    element: <NotFound />,
+  },
+  {
+    path: "/curses",
+    element: <NotFound />,
+  },
+  {
+    path: "/contact",
+    element: <NotFound />,
+  },
+  {
+    path: "/professional-experience",
+    element: <NotFound />,
   },
 ];

@@ -3,8 +3,7 @@ import { useRef } from "react";
 import BookImage from "../../../public/book.png";
 import GymImage from "../../../public/gym.png";
 import ProfileImage from "../../../public/profile.png";
-import { Header } from "../../components";
-import { Footer } from "../../components/Footer";
+import { Header, Footer } from "../../components";
 import { useFollowPointer } from "./hooks";
 
 export function AboutMe() {
