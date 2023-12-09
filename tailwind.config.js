@@ -20,6 +20,9 @@ export default {
       minHeight: {
         28: "7rem",
       },
+      screens: {
+        xsm: "400px",
+      },
     },
     fontFamily: {
       poppins: ["Poppins", ...defaultTheme.fontFamily.sans],

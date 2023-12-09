@@ -36,8 +36,8 @@ export function AboutMe() {
     <div className="bg-main-white dark:bg-dark-main-black min-h-screen flex flex-col">
       <section className="flex-1 px-10 xl:px-48 ">
         <Header />
-        <main className="md:mx-10  2xl:mx-64 flex flex-col gap-4 mb-6">
-          <div className="overflow-hidden flex flex-row justify-center pt-16 items-center gap-3 sm:w-full">
+        <main className="md:mx-10 2xl:mx-64 flex flex-col gap-4 mb-6">
+          <div className="xsm:overflow-hidden flex flex-row justify-center pt-16 items-center gap-3 sm:w-full">
             <motion.img
               src={GymImage}
               animate={{ x, y }}
@@ -47,7 +47,7 @@ export function AboutMe() {
                 stiffness: 30,
                 restDelta: 0.001,
               }}
-              className="p-1 w-20 sm:w-32 md:w-36 lg:w-48 rounded-lg image-with-shadow"
+              className="p-1 w-14 xsm:w-20 sm:w-32 md:w-36 lg:w-48 rounded-lg image-with-shadow"
             />
             <motion.img
               src={ProfileImage}
@@ -59,7 +59,7 @@ export function AboutMe() {
                 stiffness: 20,
                 restDelta: 0.001,
               }}
-              className="z-2 w-20 sm:w-32 md:w-36 lg:w-48 mb-10 rounded-lg image-with-shadow"
+              className="z-2 w-14 xsm:w-20 sm:w-32 md:w-36 lg:w-48 mb-10 rounded-lg image-with-shadow"
             />
             <motion.img
               src={BookImage}
@@ -70,7 +70,7 @@ export function AboutMe() {
                 stiffness: 30,
                 restDelta: 0.001,
               }}
-              className="p-1 w-20 sm:w-32 md:w-36 lg:w-48 rounded-lg image-with-shadow"
+              className="p-1 w-14 xsm:w-20 sm:w-32 md:w-36 lg:w-48 rounded-lg image-with-shadow"
             />
           </div>
           <div className="flex flex-col gap-6">
