@@ -6,10 +6,10 @@ import ProfileImage from "../../../public/profile.png";
 import { Header, Footer } from "../../components";
 import { useFollowPointer } from "./hooks";
 
-const texts = [
+const paragraphs = [
   `Sou natural da Bahia e morava la com minha querida vozinha, mas me
   mudei para o Rio de Janeiro na zona Oeste para morar com minha mãe
-  desde quando meu irmão nasceu.`,
+  desde que meu irmão nasceu.`,
 
   `Sempre fui um amante dos esportes, já andei de skate, fiz parte do
   time de basquete local, lutei karate, joguei futebol Americano e
@@ -19,8 +19,8 @@ const texts = [
   puzzles (Cubo Mágico), resolver sudokus ou resolver problemas que
   envolvem algoritmos.`,
 
-  `Gosto muito de conversas profundas sobre assuntos diversos, como
-  ciência, tecnologia ou até mesmo filosofia.`,
+  `Gosto muito de conversas profundas sobre assuntos diversos, como:
+  ciência, tecnologia e até mesmo filosofia.`,
   `Amo minha familia, e ela sempre vai estar em primeiro lugar em
   minha vida.`,
 
@@ -74,7 +74,7 @@ export function AboutMe() {
             />
           </div>
           <div className="flex flex-col gap-6">
-            {texts.map((text, index) => {
+            {paragraphs.map((text, index) => {
               const value = index % 2;
               const oddNumber = !value;
 

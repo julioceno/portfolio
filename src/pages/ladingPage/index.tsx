@@ -1,4 +1,4 @@
-import { Header } from "../../components";
+import { Header, Wrap } from "../../components";
 import MainIcon from "../../../public/main-icon.svg";
 import "./style.css";
 import { themeStore } from "../../components/Header/store";
@@ -12,8 +12,7 @@ const LandingPage = observer(() => {
     : "text-with-shadow";
 
   return (
-    <div className="bg-main-white dark:bg-dark-main-black min-h-screen pb-4 px-10 xl:px-48 flex flex-col">
-      <Header />
+    <Wrap ocultFooter>
       <div className="flex-1 flex justify-center items-center mt-5 md:mt-0">
         <main className=" flex flex-col items-center gap-10 md:grid grid-cols-2 ">
           <div className="flex flex-col items-center md:items-start gap-3 grid-col-2">
@@ -43,7 +42,7 @@ const LandingPage = observer(() => {
           </p>
         </main>
       </div>
-    </div>
+    </Wrap>
   );
 });
 
