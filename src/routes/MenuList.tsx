@@ -2,15 +2,15 @@ import { AboutMe, LandingPage } from "../pages";
 
 export const list = [
   {
-    path: "/portfolio",
+    path: "",
     element: <LandingPage />,
   },
   {
-    path: "/portfolio/about",
+    path: "/about",
     element: <AboutMe />,
   },
   {
-    path: "/portfolio/test",
+    path: "/test",
     element: <div>Teste</div>,
   },
 ];

@@ -20,7 +20,7 @@ const menuList: MenuItem[] = [
   {
     icon: <Home size={20} />,
     label: "Início",
-    href: "/portfolio",
+    href: "/",
   },
   {
     icon: <User size={20} />,
