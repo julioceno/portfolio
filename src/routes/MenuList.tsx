@@ -1,9 +1,9 @@
-import { AboutMe, LandingPage } from "../pages";
+import { AboutMe } from "../pages";
 
 export const list = [
   {
     path: "",
-    element: <LandingPage />,
+    element: <AboutMe />,
   },
   {
     path: "/about",
