@@ -29,7 +29,7 @@ export function Title({ image, text, alt, wordLink, link }: Props) {
 
   return (
     <a className="flex items-center gap-2 w-10/12">
-      <h2 className="font-poppins text-right text-sm md:text-lg text-main-black dark:text-main-white">
+      <h2 className="font-poppins text-center xsm:text-right text-sm md:text-lg text-main-black dark:text-main-white">
         {renderText()}
       </h2>
       <img src={image} alt={alt} className="w-12" />
