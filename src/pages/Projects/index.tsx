@@ -2,6 +2,7 @@ import { Title, Wrap } from "../../components";
 import GithubIcon from "../../../public/github.svg";
 import { SocialMediaEnum } from "../../common";
 import { ProjectCard } from "./components";
+import { projects } from "./projects";
 
 export function Projects() {
   return (
@@ -18,17 +19,14 @@ export function Projects() {
         </div>
 
         <section className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-8">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {projects.map((project) => (
+            <ProjectCard
+              title={project.title}
+              paragraphs={project.paragraphs}
+              preview={project.preview}
+              techs={project.techs}
+            />
+          ))}
         </section>
       </div>
     </Wrap>
