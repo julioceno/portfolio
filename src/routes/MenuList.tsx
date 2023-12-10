@@ -1,5 +1,6 @@
 import { AboutMe, LandingPage } from "../pages";
 import { NotFound } from "../pages/NotFound";
+import { Projects } from "../pages/Projects";
 
 export const list = [
   {
@@ -16,7 +17,7 @@ export const list = [
   },
   {
     path: "/projects",
-    element: <NotFound />,
+    element: <Projects />,
   },
   {
     path: "/curses",

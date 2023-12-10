@@ -11,6 +11,7 @@ export default {
         "dark-main-black": "#181823",
         "dark-second-black": "#2F2E41",
         "dark-hover-black": "#232235",
+        "github-dark": "#2B3137",
 
         "main-white": "#FFFAFA",
 

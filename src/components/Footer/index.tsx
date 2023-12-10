@@ -1,5 +1,6 @@
 import { Github, HeartIcon, Instagram, Linkedin } from "lucide-react";
 import { useEffect, useState } from "react";
+import { SocialMediaEnum } from "../../common";
 
 export function Footer() {
   const [year, setYear] = useState<number>();
@@ -16,17 +17,17 @@ export function Footer() {
       <div className="flex justify-center">
         <ul className="flex gap-2">
           <li className="hover:bg-black/30 p-1 rounded-sm cursor-pointer">
-            <a href="https://www.linkedin.com/in/julioceno/" target="_blank">
+            <a href={SocialMediaEnum.LINKEDIN} target="_blank">
               <Linkedin />
             </a>
           </li>
           <li className="hover:bg-black/30 p-1 rounded-sm cursor-pointer">
-            <a href="https://github.com/julioceno/" target="_blank">
+            <a href={SocialMediaEnum.GITHUB} target="_blank">
               <Github />
             </a>
           </li>
           <li className="hover:bg-black/30 p-1 rounded-sm cursor-pointer">
-            <a href="https://www.instagram.com/ceno7_/" target="_blank">
+            <a href={SocialMediaEnum.INSTAGRAM} target="_blank">
               <Instagram />
             </a>
           </li>
@@ -42,7 +43,7 @@ export function Footer() {
           por{" "}
           <a
             className="text-white underline font-medium tracking-wider cursor-pointer hover:text-blue-300"
-            href="https://www.linkedin.com/in/julioceno/"
+            href={SocialMediaEnum.LINKEDIN}
             target="_blank"
           >
             Júlio Nepomuceno

@@ -1,8 +1,8 @@
-import { Header, Wrap } from "../../components";
-import MainIcon from "../../../public/main-icon.svg";
-import "./style.css";
-import { themeStore } from "../../components/Header/store";
 import { observer } from "mobx-react-lite";
+import MainIcon from "../../../public/main-icon.svg";
+import { Wrap } from "../../components";
+import { themeStore } from "../../components/Header/store";
+import "./style.css";
 
 const LandingPage = observer(() => {
   const isDarkMode = themeStore.theme === "dark";
