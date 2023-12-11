@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { TechBadge, Wrap } from "../../components";
+import { RedirectButtons } from "./components";
 import { useFindProject } from "./hooks";
 
 export function Project() {
@@ -22,6 +23,11 @@ export function Project() {
             return <p className="text-center italic text-base">{paragraph}</p>;
           })}
         </div>
+        <RedirectButtons
+          applicationLink={project.applicationLink}
+          githubLink={project.githubLink}
+        />
+        <div className="flex flex-wrap gap-2"></div>
       </div>
     </Wrap>
   );
