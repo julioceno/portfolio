@@ -1,6 +1,4 @@
-import { AboutMe, LandingPage } from "../pages";
-import { NotFound } from "../pages/NotFound";
-import { Projects } from "../pages/Projects";
+import { AboutMe, LandingPage, NotFound, Project, Projects } from "../pages";
 
 export const list = [
   {
@@ -20,6 +18,10 @@ export const list = [
     element: <Projects />,
   },
   {
+    path: `/projects/:id`,
+    element: <Project />,
+  },
+  {
     path: "/curses",
     element: <NotFound />,
   },
@@ -29,6 +31,10 @@ export const list = [
   },
   {
     path: "/professional-experience",
+    element: <NotFound />,
+  },
+  {
+    path: "/not-found",
     element: <NotFound />,
   },
 ];

@@ -6,7 +6,7 @@ function ProjectCard({ techs, preview, title, id }: IProjectCardProps) {
     <Card>
       <a
         className="min-h-[10rem] h-full cursor-pointer font-poppins text-main-black dark:text-main-white flex flex-col gap-3 p-2 md:p-4"
-        href={`project/${id}`}
+        href={`../projects/${id}`}
       >
         <h3 className="uppercase font-semibold text-lg text-center md:text-start">
           {title}
