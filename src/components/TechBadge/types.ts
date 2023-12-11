@@ -20,4 +20,5 @@ export interface ITech {
 
 export interface Props {
   name: TechEnumKeys;
+  hasShadow?: boolean;
 }
