@@ -21,10 +21,15 @@ export function Projects() {
         <section className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-8">
           {projects.map((project) => (
             <ProjectCard
+              id={project.id}
               title={project.title}
               paragraphs={project.paragraphs}
               preview={project.preview}
               techs={project.techs}
+              images={project.images}
+              applicationLink={project.applicationLink}
+              githubLink={project.githubLink}
+              key={project.id}
             />
           ))}
         </section>
