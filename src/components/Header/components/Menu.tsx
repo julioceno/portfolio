@@ -1,3 +1,4 @@
+import { AnimatePresence, motion } from "framer-motion";
 import {
   Briefcase,
   FolderKanban,
@@ -7,8 +8,8 @@ import {
   User,
   Users,
 } from "lucide-react";
-import { ReactNode, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { ReactNode, useRef, useState } from "react";
+import { useClickOutside } from "../../../common";
 
 interface MenuItem {
   icon: ReactNode;
@@ -55,12 +56,15 @@ const menuList: MenuItem[] = [
 ];
 
 export function Menu() {
+  const containerRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
+
+  useClickOutside({ ref: containerRef, action: () => setIsOpen(false) });
 
   const genericHamburgerLine = `h-[.2rem] md:h-[.3rem] w-7 md:w-10 my-1 rounded-full bg-main-black dark:bg-main-white duration-300`;
 
   return (
-    <div className="relative">
+    <div className="relative" ref={containerRef}>
       <button
         className="h-12 md:h-16 w-12 md:w-16 bg-gray-200 hover:bg-gray-300 dark:bg-dark-second-black dark:hover:bg-dark-hover-black rounded-full flex flex-col justify-center items-center"
         onClick={() => setIsOpen(!isOpen)}
