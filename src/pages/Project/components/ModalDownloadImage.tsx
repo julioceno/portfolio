@@ -31,7 +31,7 @@ export function ModalDownloadImage({ image, handleClose, isOpen }: IProps) {
                 Salvar
               </a>
               <button
-                className="text-main-black border-main-black hover:bg-gray-200 duration-300 px-4 py-1 border rounded flex-1"
+                className="text-main-black border-main-black dark:hover:bg-gray-200 dark:text-main-white dark:border-main-white dark:hover:bg-zinc-950/10  duration-300 px-4 py-1 border rounded flex-1"
                 onClick={handleClose}
               >
                 Fechar
