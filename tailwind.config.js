@@ -16,6 +16,7 @@ export default {
         "main-white": "#FFFAFA",
 
         "main-blue": "#4477CE",
+        "main-blue-hover": "#2061CF",
         "dark-main-blue": "#0944A8",
       },
       minHeight: {

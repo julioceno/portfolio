@@ -64,7 +64,7 @@ export function Menu() {
   const genericHamburgerLine = `h-[.2rem] md:h-[.3rem] w-7 md:w-10 my-1 rounded-full bg-main-black dark:bg-main-white duration-300`;
 
   return (
-    <div className="relative" ref={containerRef}>
+    <div ref={containerRef}>
       <button
         className="h-12 md:h-16 w-12 md:w-16 bg-gray-200 hover:bg-gray-300 dark:bg-dark-second-black dark:hover:bg-dark-hover-black rounded-full flex flex-col justify-center items-center"
         onClick={() => setIsOpen(!isOpen)}
