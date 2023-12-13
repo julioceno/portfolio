@@ -13,9 +13,6 @@ export function ModalDownloadImage({ image, handleClose, isOpen }: IProps) {
 
   useClickOutside({ ref: popupRef, action: () => handleClose() });
 
-  useEffect(() => {
-    console.log(isOpen);
-  }, [isOpen]);
   return (
     <AnimatePresence>
       {isOpen && (
