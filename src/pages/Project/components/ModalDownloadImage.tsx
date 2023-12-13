@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useClickOutside } from "../../../common";
 
 interface IProps {
