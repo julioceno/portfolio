@@ -4,7 +4,6 @@ import { IProjectCardProps } from "./types";
 import CheryTask1 from "../../../public/projects/cherry-task-1.png";
 import CheryTask2 from "../../../public/projects/cherry-task-2.png";
 import CheryTask3 from "../../../public/projects/cherry-task-3.png";
-import Test from "../../../public/projects/post.png";
 
 export const projects: IProjectCardProps[] = [
   {
@@ -17,7 +16,7 @@ export const projects: IProjectCardProps[] = [
       "Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.",
       "Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.",
     ],
-    images: [CheryTask3, Test, CheryTask1, CheryTask2],
+    images: [CheryTask3, CheryTask1, CheryTask2],
     githubLink: "https://github.com/julioceno/cherry-task",
     applicationLink: "https://github.com/julioceno/cherry-task",
   },

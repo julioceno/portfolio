@@ -8,7 +8,7 @@ interface Props {
 function Card({ children }: Props) {
   return (
     <motion.div
-      className={`w-full h-full bg-gray-300 dark:bg-dark-second-black black-shadow dark:shadow-white-shadow`}
+      className={`w-full h-full bg-gray-300 dark:bg-dark-second-black shadow-black-shadow dark:shadow-white-shadow`}
       whileHover={{ scale: 1.01, y: -1 }}
     >
       {children}
