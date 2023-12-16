@@ -1,4 +1,4 @@
-import { AboutMe, LandingPage, NotFound, Project, Projects } from "../pages";
+import { AboutMe, LandingPage, NotFound, Project, Projects, Recommendations } from "../pages";
 
 export const list = [
   {
@@ -11,7 +11,7 @@ export const list = [
   },
   {
     path: "/recommendations",
-    element: <NotFound />,
+    element: <Recommendations />,
   },
   {
     path: "/projects",
