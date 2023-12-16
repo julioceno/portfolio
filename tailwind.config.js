@@ -25,6 +25,10 @@ export default {
       screens: {
         xsm: "400px",
       },
+      boxShadow: {
+        'black-shadow': '1px 1px 5px rgba(0, 0, 0, 0.5)',
+        'white-shadow': '0.5px 0.5px 5px rgba(255, 255, 255, 0.26)'
+      }
     },
     fontFamily: {
       poppins: ["Poppins", ...defaultTheme.fontFamily.sans],

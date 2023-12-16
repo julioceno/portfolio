@@ -1,32 +1,12 @@
-import { observer } from "mobx-react-lite";
-import { themeStore } from "../Header/store";
 import { techsArray } from "./techs";
 import { Props } from "./types";
 export * from "./techs";
 export * from "./types";
 
-import "../Card/styles.css";
-
-function chooseClassShadow({
-  hasShadow,
-  isDark,
-}: {
-  hasShadow: boolean;
-  isDark: boolean;
-}) {
-  if (!hasShadow) return;
-
-  const classShadow = isDark ? "card-with-shadow-dark" : "card-with-shadow";
-
-  return classShadow;
-}
-
-const TechBadge = observer(({ name, hasShadow = false }: Props) => {
+function TechBadge({ name, hasShadow = false }: Props) {
   const tech = techsArray.find((tech) => tech.name === name)!;
 
-  const isDark = themeStore.theme === "dark";
-
-  const classShadow = chooseClassShadow({ hasShadow, isDark });
+  const classShadow = hasShadow && 'shadow-black-shadow dark:shadow-white-shadow' 
 
   return (
     <div
@@ -36,6 +16,6 @@ const TechBadge = observer(({ name, hasShadow = false }: Props) => {
       <img src={tech.icon} alt={tech.label} className="w-5" />
     </div>
   );
-});
+}
 
 export { TechBadge };
