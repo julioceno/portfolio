@@ -1,20 +1,28 @@
-import { AboutMe, LandingPage, NotFound, Project, Projects, Recommendations } from "../pages";
+import {
+  AboutMe,
+  Courses,
+  LandingPage,
+  NotFound,
+  Project,
+  Projects,
+  Recommendations,
+} from '../pages';
 
 export const list = [
   {
-    path: "/",
+    path: '/',
     element: <LandingPage />,
   },
   {
-    path: "/about",
+    path: '/about',
     element: <AboutMe />,
   },
   {
-    path: "/recommendations",
+    path: '/recommendations',
     element: <Recommendations />,
   },
   {
-    path: "/projects",
+    path: '/projects',
     element: <Projects />,
   },
   {
@@ -22,19 +30,19 @@ export const list = [
     element: <Project />,
   },
   {
-    path: "/curses",
+    path: '/courses',
+    element: <Courses />,
+  },
+  {
+    path: '/contact',
     element: <NotFound />,
   },
   {
-    path: "/contact",
+    path: '/professional-experience',
     element: <NotFound />,
   },
   {
-    path: "/professional-experience",
-    element: <NotFound />,
-  },
-  {
-    path: "/not-found",
+    path: '/not-found',
     element: <NotFound />,
   },
 ];

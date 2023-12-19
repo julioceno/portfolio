@@ -1,13 +1,17 @@
 export enum TechEnum {
   // FRONTEND
-  REACT = "REACT",
+  JAVASCRIPT = 'JAVASCRIPT',
+  TYPESCRIPT = 'TYPESCRIPT',
+  REACT = 'REACT',
 
   // BACKEND
-  NODE = "NODE",
-  TRPC = "TRPC",
+  NODE = 'NODE',
+  TRPC = 'TRPC',
+  NEST = 'NEST',
+  JAVA = 'JAVA',
 
   // OTHER
-  MONOREPO = "MONOREPO",
+  MONOREPO = 'MONOREPO',
 }
 
 export type TechEnumKeys = keyof typeof TechEnum;
