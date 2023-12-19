@@ -7,5 +7,6 @@ export const techs: TechEnumKeys[] = [
   TechEnum.NEST,
   TechEnum.TRPC,
   TechEnum.REACT,
+  TechEnum.JAVA,
   TechEnum.MONOREPO,
 ];
