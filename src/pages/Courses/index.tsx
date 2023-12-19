@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { TechBadge, TechEnumKeys, Wrap } from '../../components';
+import { CourseCard } from './components/CourseCard';
+import { courses } from './courses';
 import { techs as techsArray } from './techs';
 
 export function Courses() {
@@ -16,21 +18,37 @@ export function Courses() {
 
   return (
     <Wrap>
-      <div className='flex flex-col gap-3 flex-1'>
-        <section className='font-poppins mt-10 flex flex-col gap-3 md:gap-5 '>
-          <h1 className='text-main-black dark:text-main-white font-semibold tracking-wider text-xl md:text-2xl text-center md:text-start'>
+      <div className='flex flex-col gap-20 flex-1 font-poppins text-main-black dark:text-main-white '>
+        <section className=' mt-10 flex flex-col gap-3 md:gap-5 '>
+          <h2 className='font-semibold tracking-wider text-xl md:text-2xl text-center md:text-start'>
             TENHO EXPERIÊNCIA EM
-          </h1>
+          </h2>
           <div className='flex flex-wrap gap-2 md:gap-3 justify-center md:justify-start'>
             {techs.map((tech) => (
               <TechBadge name={tech} hasShadow />
             ))}
             <button
-              className='text-xs self-end hover:underline '
+              className='text-xs self-end hover:underline text-gray-600 dark:text-gray-300'
               onClick={() => setIsExpand(!isExpand)}
             >
               {isExpand ? 'Mostrar menos...' : 'Mostrar mais...'}
             </button>
+          </div>
+        </section>
+        <section className='flex flex-col gap-3 md:gap-5 '>
+          <h2 className='font-semibold tracking-wider text-xl md:text-2xl text-center md:text-start'>
+            CURSOS
+          </h2>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+            {courses.map((course, index) => (
+              <CourseCard
+                title={course.title}
+                image={course.image}
+                preview={course.preview}
+                techs={course.techs}
+                key={`${index}-${course.title}`}
+              />
+            ))}
           </div>
         </section>
       </div>
