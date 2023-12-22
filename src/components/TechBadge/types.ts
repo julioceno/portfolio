@@ -3,12 +3,17 @@ export enum TechEnum {
   JAVASCRIPT = 'JAVASCRIPT',
   TYPESCRIPT = 'TYPESCRIPT',
   REACT = 'REACT',
+  HTML = 'HTML',
+  CSS = 'CSS',
+  TAILWIND = 'TAILWIND',
 
   // BACKEND
   NODE = 'NODE',
   TRPC = 'TRPC',
+  GRPC = 'GRPC',
   NEST = 'NEST',
   JAVA = 'JAVA',
+  TENSORFLOW = 'TENSORFLOW',
 
   // OTHER
   MONOREPO = 'MONOREPO',

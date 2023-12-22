@@ -5,4 +5,5 @@ export interface ICourseCardProps {
   title: string;
   techs: TechEnumKeys[];
   preview: string;
+  certificate?: string;
 }
