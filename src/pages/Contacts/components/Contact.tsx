@@ -10,7 +10,7 @@ function Contact({ image, link, preview, title }: IContactProps) {
         href={link}
       >
         <img src={image} alt={title} className='h-full' />
-        <div className='p-2 pb-5 flex flex-col'>
+        <div className='p-2 pb-5 flex flex-col w-full'>
           <h5 className='text-xl font-medium text-center bp-550px:text-start'>{title}</h5>
           <p className='text-sm text-center bp-550px:text-start'>{preview}</p>
         </div>
