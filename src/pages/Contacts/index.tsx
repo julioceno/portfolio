@@ -1,7 +1,7 @@
-import MailIcon from '../../../public/mail.svg';
+import MailIcon from '../../../public/mail-icon.svg';
 import MessageIcon from '../../../public/message.svg';
 import { Title, Wrap } from '../../components';
-import { Contact } from './components';
+import { ContactCard } from './components';
 import { contacts } from './contacts';
 
 function Contacts() {
@@ -18,7 +18,7 @@ function Contacts() {
         <div className='flex gap-10'>
           <section className='flex-1 flex flex-col gap-5 '>
             {contacts.map((contact, index) => (
-              <Contact
+              <ContactCard
                 image={contact.image}
                 link={contact.link}
                 preview={contact.preview}

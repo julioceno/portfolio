@@ -1,11 +1,11 @@
 import { Card } from '../../../components';
 import { IContactProps } from '../types';
 
-function Contact({ image, link, preview, title }: IContactProps) {
+function ContactCard({ image, link, preview, title }: IContactProps) {
   return (
     <Card>
       <a
-        className='bp-550px:h-32 flex flex-wrap bp-550px:flex-nowrap gap-3 cursor-pointer font-poppins'
+        className='bp-550px:h-32 flex flex-wrap bp-550px:flex-nowrap gap-3 cursor-pointer font-poppins text-main-black dark:text-main-white'
         target='_blank'
         href={link}
       >
@@ -19,4 +19,4 @@ function Contact({ image, link, preview, title }: IContactProps) {
   );
 }
 
-export { Contact };
+export { ContactCard };
