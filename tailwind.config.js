@@ -23,9 +23,9 @@ export default {
         28: '7rem',
       },
       screens: {
-        xsm: '400px',
+        'bp-400px': '400px',
         'bp-550px': '550px',
-        xmd: '625px',
+        'pb-625px': '625px',
       },
       boxShadow: {
         'black-shadow': '1px 1px 5px rgba(0, 0, 0, 0.5)',

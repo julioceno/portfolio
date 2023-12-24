@@ -14,7 +14,7 @@ const Home = observer(() => {
       <div className='flex-1 flex justify-center items-center mt-5 md:mt-0'>
         <main className=' flex flex-col items-center gap-10 md:grid grid-cols-2 '>
           <div className='flex flex-col items-center md:items-start gap-3 grid-col-2'>
-            <h1 className='text-2xl xsm:text-4xl lg:text-5xl xl:text6xl text-main-black dark:text-main-white font-medium text-center md:text-left font-poppins'>
+            <h1 className='text-2xl bp-400px:text-4xl lg:text-5xl xl:text6xl text-main-black dark:text-main-white font-medium text-center md:text-left font-poppins'>
               Desenvolvedor de <br />
               <span className='text-main-blue font-bold'>software</span>
             </h1>
