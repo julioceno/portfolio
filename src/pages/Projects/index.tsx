@@ -7,7 +7,7 @@ import { projects } from './projects';
 export function Projects() {
   return (
     <Wrap>
-      <div className='flex flex-col flex-1 gap-10 mt-10 md:mx-20 pb-10'>
+      <div className='flex flex-col flex-1 gap-10 mt-10 md:mx-20 mb-6'>
         <div className='self-end flex justify-end'>
           <Title
             image={GithubIcon}

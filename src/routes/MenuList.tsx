@@ -1,7 +1,8 @@
 import {
   AboutMe,
+  Contacts,
   Courses,
-  LandingPage,
+  Home,
   NotFound,
   Project,
   Projects,
@@ -11,7 +12,7 @@ import {
 export const list = [
   {
     path: '/',
-    element: <LandingPage />,
+    element: <Home />,
   },
   {
     path: '/about',
@@ -35,7 +36,7 @@ export const list = [
   },
   {
     path: '/contact',
-    element: <NotFound />,
+    element: <Contacts />,
   },
   {
     path: '/professional-experience',

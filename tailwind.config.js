@@ -24,6 +24,7 @@ export default {
       },
       screens: {
         xsm: '400px',
+        'bp-550px': '550px',
         xmd: '625px',
       },
       boxShadow: {
