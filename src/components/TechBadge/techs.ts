@@ -1,12 +1,17 @@
 import { ITech, TechEnum } from './types';
 
 import CssIcon from '../../../public/techs/css.svg';
+import FigmaIcon from '../../../public/techs/figma.svg';
+import FormikIcon from '../../../public/techs/formik.svg';
 import GRPCIcon from '../../../public/techs/grpc.svg';
 import HtmlIcon from '../../../public/techs/html.svg';
 import JavaIcon from '../../../public/techs/java.svg';
 import JavascriptIcon from '../../../public/techs/javascript.svg';
+import JestIcon from '../../../public/techs/jest.svg';
+import MaterialUiIcon from '../../../public/techs/material-ui.svg';
 import NestIcon from '../../../public/techs/nest.svg';
 import NodeIcon from '../../../public/techs/node.svg';
+import PostgresqlIcon from '../../../public/techs/postgresql.svg';
 import ReactIcon from '../../../public/techs/react.svg';
 import TailwindIcon from '../../../public/techs/tailwind.svg';
 import TensorFlowIcon from '../../../public/techs/tensor-flow.svg';
@@ -24,6 +29,11 @@ export const techsArray: ITech[] = [
     name: TechEnum.REACT,
     icon: ReactIcon,
     label: 'React JS',
+  },
+  {
+    name: TechEnum.REACT_NATIVE,
+    icon: ReactIcon,
+    label: 'React Native',
   },
   {
     name: TechEnum.MONOREPO,
@@ -79,5 +89,30 @@ export const techsArray: ITech[] = [
     name: TechEnum.TAILWIND,
     icon: TailwindIcon,
     label: 'Tailwind CSS',
+  },
+  {
+    name: TechEnum.FIGMA,
+    icon: FigmaIcon,
+    label: 'Figma',
+  },
+  {
+    name: TechEnum.JEST,
+    icon: JestIcon,
+    label: 'Jest',
+  },
+  {
+    name: TechEnum.POSTGRESQL,
+    icon: PostgresqlIcon,
+    label: 'Postgresql',
+  },
+  {
+    name: TechEnum.MATERIAL_UI,
+    icon: MaterialUiIcon,
+    label: 'Material UI',
+  },
+  {
+    name: TechEnum.FORMIK,
+    icon: FormikIcon,
+    label: 'Formik',
   },
 ];

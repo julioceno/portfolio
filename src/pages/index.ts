@@ -3,6 +3,7 @@ export * from './Contacts';
 export * from './Courses';
 export * from './Home';
 export * from './NotFound';
+export * from './ProfessionalJourney';
 export * from './Project';
 export * from './Projects';
 export * from './Recommendations';

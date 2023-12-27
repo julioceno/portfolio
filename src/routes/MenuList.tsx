@@ -4,6 +4,7 @@ import {
   Courses,
   Home,
   NotFound,
+  ProfessionalJourney,
   Project,
   Projects,
   Recommendations,
@@ -40,7 +41,7 @@ export const list = [
   },
   {
     path: '/professional-experience',
-    element: <NotFound />,
+    element: <ProfessionalJourney />,
   },
   {
     path: '/not-found',

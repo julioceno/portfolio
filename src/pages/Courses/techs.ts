@@ -12,6 +12,7 @@ export const techs: TechEnumKeys[] = [
   TechEnum.HTML,
   TechEnum.CSS,
   TechEnum.JAVA,
-  TechEnum.MONOREPO,
   TechEnum.TENSORFLOW,
+  TechEnum.REACT_NATIVE,
+  TechEnum.MONOREPO,
 ];
