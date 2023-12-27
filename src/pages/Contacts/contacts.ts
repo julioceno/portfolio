@@ -24,7 +24,7 @@ export const contacts: IContactProps[] = [
     image: InstagramIcon,
     link: SocialMediaEnum.INSTAGRAM,
     preview: 'Me conheça melhor e acompanhe no instagram',
-    title: 'Gmail',
+    title: 'Instagram',
   },
   {
     image: EmailIcon,
