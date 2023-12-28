@@ -24,6 +24,7 @@ function ProfessionalJourney() {
                 endIn={job.endIn}
                 techs={job.techs}
                 workinDay={job.workinDay}
+                isSameJob={job.isSameJob}
                 key={`${index}-${job}`}
               />
             ))}

@@ -15,4 +15,5 @@ export interface IProfessionalJourneyProps {
   skills: string[];
   techs: TechEnumKeys[];
   workinDay: WorkinDayEnum;
+  isSameJob?: boolean;
 }

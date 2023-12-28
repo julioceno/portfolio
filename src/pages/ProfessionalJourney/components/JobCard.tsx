@@ -16,6 +16,7 @@ function JobCard({
   techs,
   workinDay,
   endIn,
+  isSameJob,
 }: IProfessionalJourneyProps) {
   const startInFormatted = formatDateInPattern(startIn);
 
@@ -25,7 +26,14 @@ function JobCard({
 
   return (
     <div className='flex gap-3'>
-      <div className='h-10 w-10 bg-gray-300 dark:bg-dark-second-black rounded-full' />
+      <div className='flex flex-col gap-2 items-center'>
+        <div className='h-5 w-5 bg-gray-300 dark:bg-dark-second-black rounded-full' />
+        <div
+          className={`h-full w-1 rounded-sm -mb-3 ${
+            isSameJob && 'border-dashed'
+          }  border-gray-300 dark:border-dark-second-black border-[0.25rem] `}
+        />
+      </div>
       <Card>
         <div className='flex gap-3 font-poppins text-main-black dark:text-main-white px-5 py-3 items-start'>
           <img src={image} alt={companyName} />

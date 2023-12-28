@@ -24,6 +24,7 @@ export const professionalJourney: IProfessionalJourneyProps[] = [
       TechEnum.POSTGRESQL,
     ],
     workinDay: WorkinDayEnum.FULL_TIME,
+    isSameJob: true,
   },
   {
     image: EurekaLogoIcon,
