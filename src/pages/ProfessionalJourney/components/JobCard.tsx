@@ -29,9 +29,9 @@ function JobCard({
       <div className='flex flex-col gap-2 items-center'>
         <div className='h-5 w-5 bg-gray-300 dark:bg-dark-second-black rounded-full' />
         <div
-          className={`h-full w-1 rounded-sm -mb-3 ${
+          className={`h-full w-1 rounded-sm -mb-2 border-gray-300 dark:border-dark-second-black border-2 ${
             isSameJob && 'border-dashed'
-          }  border-gray-300 dark:border-dark-second-black border-[0.25rem] `}
+          }`}
         />
       </div>
       <Card>
