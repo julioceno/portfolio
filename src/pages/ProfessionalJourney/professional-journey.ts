@@ -9,7 +9,7 @@ export const professionalJourney: IProfessionalJourneyProps[] = [
     image: EurekaLogoIcon,
     jobRole: 'Desenvolvedor Fullstack',
     preview:
-      'Tornei-me parte fundamental da equipe ao prestar serviços para uma das maiores transportadoras do país. Meu foco está em implementar soluções inovadoras que agregam valor ao cliente e aprimoram a eficiência dos fluxos internos. Tenho o prazer de colaborar com meus colegas, oferecendo suporte e compartilhando ideias para alcançarmos resultados excepcionais. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.Tornei-me parte fundamental da equipe ao prestar serviços para uma das maiores transportadoras do país. Meu foco está em implementar soluções inovadoras que agregam valor ao cliente e aprimoram a eficiência dos fluxos internos. Tenho o prazer de colaborar com meus colegas, oferecendo suporte e compartilhando ideias para alcançarmos resultados excepcionais. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.',
+      'Tornei-me parte fundamental da equipe ao prestar serviços para uma das maiores transportadoras do país. Meu foco está em implementar soluções inovadoras que agregam valor ao cliente e aprimoram a eficiência dos fluxos internos. Tenho o prazer de colaborar com meus colegas, oferecendo suporte e compartilhando ideias para alcançarmos resultados excepcionais. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.',
     companyName: 'Programing Network',
     skills: ['Metodologias Ágeis', 'Análises Técnicas'],
     startIn: new Date(2023, 0, 1),
@@ -30,7 +30,7 @@ export const professionalJourney: IProfessionalJourneyProps[] = [
     image: EurekaLogoIcon,
     jobRole: 'Desenvolvedor Fullstack',
     preview:
-      'Tornei-me parte fundamental da equipe ao prestar serviços para uma das maiores transportadoras do país. Meu foco está em implementar soluções inovadoras que agregam valor ao cliente e aprimoram a eficiência dos fluxos internos. Tenho o prazer de colaborar com meus colegas, oferecendo suporte e compartilhando ideias para alcançarmos resultados excepcionais. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.Tornei-me parte fundamental da equipe ao prestar serviços para uma das maiores transportadoras do país. Meu foco está em implementar soluções inovadoras que agregam valor ao cliente e aprimoram a eficiência dos fluxos internos. Tenho o prazer de colaborar com meus colegas, oferecendo suporte e compartilhando ideias para alcançarmos resultados excepcionais. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.',
+      'Tornei-me parte fundamental da equipe ao prestar serviços para uma das maiores transportadoras do país. Meu foco está em implementar soluções inovadoras que agregam valor ao cliente e aprimoram a eficiência dos fluxos internos. Tenho o prazer de colaborar com meus colegas, oferecendo suporte e compartilhando ideias para alcançarmos resultados excepcionais. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.',
     companyName: 'Programing Network',
     skills: ['Metodologias Ágeis', 'Análises Técnicas'],
     startIn: new Date(2021, 10, 1),
