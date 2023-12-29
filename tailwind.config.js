@@ -36,5 +36,5 @@ export default {
       poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')],
 };
