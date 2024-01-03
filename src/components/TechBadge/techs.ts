@@ -1,6 +1,9 @@
 import { ITech, TechEnum } from './types';
 
 import CssIcon from '../../../public/techs/css.svg';
+import DenoIcon from '../../../public/techs/deno.svg';
+import ExpressIcon from '../../../public/techs/express.svg';
+import FeathersIcon from '../../../public/techs/feathers.svg';
 import FigmaIcon from '../../../public/techs/figma.svg';
 import FormikIcon from '../../../public/techs/formik.svg';
 import GRPCIcon from '../../../public/techs/grpc.svg';
@@ -8,16 +11,21 @@ import HtmlIcon from '../../../public/techs/html.svg';
 import JavaIcon from '../../../public/techs/java.svg';
 import JavascriptIcon from '../../../public/techs/javascript.svg';
 import JestIcon from '../../../public/techs/jest.svg';
+import LoopbackIcon from '../../../public/techs/loopback.svg';
 import MaterialUiIcon from '../../../public/techs/material-ui.svg';
+import MobxlIcon from '../../../public/techs/mobx.svg';
 import NestIcon from '../../../public/techs/nest.svg';
 import NodeIcon from '../../../public/techs/node.svg';
 import PostgresqlIcon from '../../../public/techs/postgresql.svg';
+import PrismaIcon from '../../../public/techs/prisma.svg';
+import ReactFinalFormIcon from '../../../public/techs/react-final-form.svg';
 import ReactIcon from '../../../public/techs/react.svg';
 import TailwindIcon from '../../../public/techs/tailwind.svg';
 import TensorFlowIcon from '../../../public/techs/tensor-flow.svg';
 import TRPCIcon from '../../../public/techs/trpc.svg';
 import TypescriptIcon from '../../../public/techs/typescript.svg';
 import VercelIcon from '../../../public/techs/vercel.svg';
+import ZodIcon from '../../../public/techs/zod.svg';
 
 export const techsArray: ITech[] = [
   {
@@ -114,5 +122,45 @@ export const techsArray: ITech[] = [
     name: TechEnum.FORMIK,
     icon: FormikIcon,
     label: 'Formik',
+  },
+  {
+    name: TechEnum.PRISMA,
+    icon: PrismaIcon,
+    label: 'Prisma',
+  },
+  {
+    name: TechEnum.DENO,
+    icon: DenoIcon,
+    label: 'Deno',
+  },
+  {
+    name: TechEnum.EXPRESS,
+    icon: ExpressIcon,
+    label: 'Express',
+  },
+  {
+    name: TechEnum.MOBX,
+    icon: MobxlIcon,
+    label: 'Mobx',
+  },
+  {
+    name: TechEnum.FEATHERS,
+    icon: FeathersIcon,
+    label: 'Feathers',
+  },
+  {
+    name: TechEnum.LOOPBACK,
+    icon: LoopbackIcon,
+    label: 'Loopback',
+  },
+  {
+    name: TechEnum.REACT_FINAL_FORM,
+    icon: ReactFinalFormIcon,
+    label: 'React Final Form',
+  },
+  {
+    name: TechEnum.ZOD,
+    icon: ZodIcon,
+    label: 'Zod',
   },
 ];
