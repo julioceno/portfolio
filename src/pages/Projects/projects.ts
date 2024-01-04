@@ -22,7 +22,7 @@ export const projects: IProjectCardProps[] = [
     ],
     paragraphs: [
       'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-      'A mesma foi desenvolvida com foco de praticar o uso do tRPC, e tirar o melhor que essa ferramenta nos proporciona. Na parte de armazemanamento de dados utilizei o prisma juntamente com postgres para garantir o registro de dados.',
+      'A mesma foi desenvolvida com foco de praticar o uso do tRPC, e tirar o melhor que essa ferramenta nos proporciona. Na parte de armazemanamento de dados utilizei o prisma juntamente com postgres para garantir o registro de dados. Além disso utilizei o Monorepo da Vercel para orquestrar a inicialização da aplicação que foi divida em frontend e backend.',
     ],
     images: [CheryTask3, CheryTask2, CheryTask4, CheryTask1],
     githubLink: 'https://github.com/julioceno/cherry-task',
