@@ -20,6 +20,7 @@ import PostgresqlIcon from '../../../public/techs/postgresql.svg';
 import PrismaIcon from '../../../public/techs/prisma.svg';
 import ReactFinalFormIcon from '../../../public/techs/react-final-form.svg';
 import ReactIcon from '../../../public/techs/react.svg';
+import SpringBootIcon from '../../../public/techs/spring-boot.svg';
 import TailwindIcon from '../../../public/techs/tailwind.svg';
 import TensorFlowIcon from '../../../public/techs/tensor-flow.svg';
 import TRPCIcon from '../../../public/techs/trpc.svg';
@@ -162,5 +163,10 @@ export const techsArray: ITech[] = [
     name: TechEnum.ZOD,
     icon: ZodIcon,
     label: 'Zod',
+  },
+  {
+    name: TechEnum.SPRING_BOOT,
+    icon: SpringBootIcon,
+    label: 'Spring Boot',
   },
 ];

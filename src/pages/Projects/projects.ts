@@ -9,6 +9,20 @@ import CheryTask4 from '../../../public/projects/cherry-task-4.svg';
 export const projects: IProjectCardProps[] = [
   {
     id: '227779a2-7409-4406-99e5-e11a4cceaf1d',
+    title: 'Todo List Java',
+    preview:
+      'Uma API desenvolvida em Java com Spring Boot para proporcionar uma experência eficiente e organizada para gerenciamento de tarefas. Com funcionalidades de gerenciamento e consulta das tarefas.',
+    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT],
+    paragraphs: [
+      'Uma API desenvolvida em Java com Spring Boot para proporcionar uma experência eficiente e organizada para gerenciamento de tarefas. Com funcionalidades de gerenciamento e consulta das tarefas.',
+      'A API fornece uma arquitetura sólida e de fácil entendimento. A aplicação em questão foi desenvolvida durante um bootcamp em que participei para colocar em prática conhecimentos de Java.',
+      'Por se tratar apenas de uma API, não tem imagens para serem apresentadas,',
+    ],
+    images: [],
+    githubLink: 'https://github.com/julioceno/todolist-java',
+  },
+  {
+    id: '227779a2-7409-4406-99e5-e11a4cceaf1d',
     title: 'Drive More',
     preview:
       'Centralizando toda regra de negócio de uma autoescola, essa aplicação cuida da gestão das aulas dos alunos. Uma aplicação focada em agilizar o processo da autoecola visando sempre deixar registrado qualquer alteração feita dentro de um histórico de auditoria para fins de observabilidade.',
