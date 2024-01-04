@@ -8,6 +8,21 @@ import CheryTask4 from '../../../public/projects/cherry-task-4.svg';
 
 export const projects: IProjectCardProps[] = [
   {
+    id: '227779a2-7409-4406-99e5-e11a4cceaf1d',
+    title: 'Drive More',
+    preview:
+      'Centralizando toda regra de negócio de uma autoescola, essa aplicação cuida da gestão das aulas dos alunos. Uma aplicação focada em agilizar o processo da autoecola visando sempre deixar registrado qualquer alteração feita dentro de um histórico de auditoria para fins de observabilidade.',
+    techs: [TechEnum.NODE, TechEnum.NEST, TechEnum.GRPC, TechEnum.PRISMA, TechEnum.POSTGRESQL],
+    paragraphs: [
+      'Centralizando toda regra de negócio de uma autoescola, essa aplicação cuida da gestão das aulas dos alunos. Uma aplicação focada em agilizar o processo da autoecola visando sempre deixar registrado qualquer alteração feita dentro de um histórico de auditoria para fins de observabilidade.',
+      'Para facilitar não só a vida da autoescola mas também do aluno, é possível gerar um pdf com todas as aulas marcadas pendentes. Isso foi implementado com o uso de worker threads, um módulo nativo do node js para lidar com programação paralela.',
+      'A aplicação se trata apenas da API que cuida de toda regra de negócio já citada antes. Utilizei uma arquitetura de microsserviços visando melhorar a perfomance da aplicação através de escalabilidade em ambiente de produção.',
+      'Por se tratar apenas de uma API, não tem imagens para serem apresentadas,',
+    ],
+    images: [],
+    githubLink: 'https://github.com/julioceno/drive-more',
+  },
+  {
     id: '3aaeec4b-2f4e-4c89-b994-37e24dbdabb4',
     title: 'Cherry Task',
     preview:
@@ -26,43 +41,5 @@ export const projects: IProjectCardProps[] = [
     ],
     images: [CheryTask3, CheryTask2, CheryTask4, CheryTask1],
     githubLink: 'https://github.com/julioceno/cherry-task',
-  },
-  {
-    id: '9e4970a7-df39-447a-9035-627e0486725b',
-    title: 'Cherry Task',
-    preview:
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-    techs: [TechEnum.REACT, TechEnum.NODE, TechEnum.TRPC, TechEnum.MONOREPO],
-    paragraphs: [
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-    ],
-    images: [],
-    githubLink: 'https://github.com/julioceno/cherry-task',
-  },
-  {
-    id: 'fb8ff41d-2cee-4389-a59b-7b92b0f744c6',
-    title: 'Cherry Task',
-    preview:
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-    techs: [TechEnum.REACT, TechEnum.NODE, TechEnum.TRPC, TechEnum.MONOREPO],
-    paragraphs: [
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-    ],
-    images: [],
-    applicationLink: 'https://github.com/julioceno/cherry-task',
-  },
-  {
-    id: '4d950e84-cd8f-4c7f-8f67-0bf0b2724722',
-    title: 'Cherry Task',
-    preview:
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-    techs: [TechEnum.REACT, TechEnum.NODE, TechEnum.TRPC, TechEnum.MONOREPO],
-    paragraphs: [
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-      'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
-    ],
-    images: [],
   },
 ];
