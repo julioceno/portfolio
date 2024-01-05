@@ -13,7 +13,7 @@ export function Wrap({ children, ocultFooter }: Props) {
       <div
         className={`h-full flex flex-col overflow-y-auto max-w-[2000px] mx-auto ${SCROLLBAR_DEFAULT}`}
       >
-        <section className='flex flex-col flex-1 px-10 xl:px-48'>
+        <section className='flex-1 flex flex-col px-10 xl:px-48'>
           <Header />
           <main className='flex-1 flex'>{children}</main>
         </section>
