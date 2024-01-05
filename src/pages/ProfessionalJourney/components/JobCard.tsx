@@ -23,7 +23,7 @@ function JobCard({
 
   const endInFormatted = endIn ? formatDateInPattern(endIn) : 'Presente';
 
-  const distance = formatDistance(startIn, endIn || new Date());
+  const distance = formatDistance(startIn, endIn || new Date(), { locale: ptBR });
 
   return (
     <div className='flex gap-3'>
