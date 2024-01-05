@@ -1,9 +1,10 @@
 import { format, formatDistance } from 'date-fns';
+import { ptBR } from 'date-fns/locale';
 import { Card, TechBadge } from '../../../components';
 import { IProfessionalJourneyProps } from '../types';
 
 function formatDateInPattern(date: Date) {
-  return format(date, "MMMM 'de' yyyy");
+  return format(date, "MMMM 'de' yyyy", { locale: ptBR });
 }
 
 function JobCard({
