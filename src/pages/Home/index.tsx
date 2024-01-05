@@ -1,5 +1,6 @@
 import { observer } from 'mobx-react-lite';
 import MainIcon from '../../../public/main-icon.svg';
+import Resume from '../../../public/resume-julio-nepomuceno.pdf';
 import { Wrap } from '../../components';
 import { themeStore } from '../../components/Header/store';
 import './style.css';
@@ -21,9 +22,13 @@ const Home = observer(() => {
             <span className='text-main-black dark:text-main-white text-1xs md:text-xl font-normal tracking-widest'>
               Júlio Nepomuceno
             </span>
-            <button className='h-10 border-2 mt-2 px-10 md:px-8 border-main-blue text-main-blue hover:bg-gray-100 dark:hover:bg-dark-hover-black rounded-full font-poppins text-sm md:text-base'>
+            <a
+              className='flex items-center h-10 border-2 mt-2 px-10 md:px-8 border-main-blue text-main-blue hover:bg-gray-100 dark:hover:bg-dark-hover-black rounded-full font-poppins text-sm md:text-base'
+              href={Resume}
+              download
+            >
               BAIXAR CURRÍCULO
-            </button>
+            </a>
           </div>
           <img
             src={MainIcon}

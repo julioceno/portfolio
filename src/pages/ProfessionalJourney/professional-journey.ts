@@ -55,7 +55,7 @@ export const professionalJourney: IProfessionalJourneyProps[] = [
       'Metodologias Ágeis',
       'Análises Técnicas',
     ],
-    startIn: new Date(2021, 10, 1),
+    startIn: new Date(2021, 8, 1),
     endIn: new Date(2023, 0, 1),
     techs: [
       TechEnum.REACT,
