@@ -31,6 +31,18 @@ export default {
         'black-shadow': '1px 1px 5px rgba(0, 0, 0, 0.5)',
         'white-shadow': '0.5px 0.5px 5px rgba(255, 255, 255, 0.26)',
       },
+      backgroundImage: {
+        sun: "url('./public/sun.svg')",
+        moon: "url('./public/moon.svg')",
+      },
+      backgroundPosition: {
+        'left-0.4': 'center left .4rem',
+        'right-0.4': 'center right .4rem',
+      },
+      backgroundSize: {
+        1.2: '1.2rem',
+        1.5: '1.5rem',
+      },
     },
     fontFamily: {
       poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
