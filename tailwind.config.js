@@ -32,8 +32,8 @@ export default {
         'white-shadow': '0.5px 0.5px 5px rgba(255, 255, 255, 0.26)',
       },
       backgroundImage: {
-        sun: "url('./public/sun.svg')",
-        moon: "url('./public/moon.svg')",
+        sun: "url('/public/sun.svg')",
+        moon: "url('/public/moon.svg')",
       },
       backgroundPosition: {
         'left-0.4': 'center left .4rem',
