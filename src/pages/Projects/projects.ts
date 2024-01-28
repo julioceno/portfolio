@@ -6,7 +6,25 @@ import CheryTask2 from '../../../public/projects/cherry-task-2.svg';
 import CheryTask3 from '../../../public/projects/cherry-task-3.svg';
 import CheryTask4 from '../../../public/projects/cherry-task-4.svg';
 
+import Informaq1 from '../../../public/projects/informaq-1.png';
+import Informaq2 from '../../../public/projects/informaq-2.png';
+import Informaq3 from '../../../public/projects/informaq-3.png';
+
 export const projects: IProjectCardProps[] = [
+  {
+    id: '062e29c4-832d-4609-a9f8-0c328fbdf7b4',
+    title: 'Informaq',
+    images: [Informaq1, Informaq2, Informaq3],
+    preview:
+      'Um site desenvolvido para a assistência técnica da informaq com o intuito de mostrar os seus serviços e disponibilizar o meio de contato. Com um layout limpo, apresenta as informações de forma didática.',
+    paragraphs: [
+      'Um site desenvolvido para a assistência técnica da informaq com o intuito de mostrar os seus serviços e disponibilizar o meio de contato. Com um layout limpo, apresenta as informações de forma didática.',
+      'O processo de construção do site começou desde sua prototipação, após validado com o cliente sobre o layout, começou assim o desenvolvido com react e utilizando tailwind para a estilização. Também, utilizei o framer motion para me auxiliar a fazer animações bonitas e suaves.',
+    ],
+    techs: [TechEnum.REACT, TechEnum.TAILWIND, TechEnum.FRAMER_MOTION],
+    applicationLink: 'https://informaq.vercel.app/',
+    githubLink: 'https://github.com/julioceno/informaq/',
+  },
   {
     id: '227779a2-7409-4406-99e5-e11a4cceaf1d',
     title: 'Todo List Java',

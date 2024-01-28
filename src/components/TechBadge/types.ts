@@ -12,6 +12,7 @@ export enum TechEnum {
   MOBX = 'MOBX',
   REACT_FINAL_FORM = 'REACT_FINAL_FORM',
   ZOD = 'ZOD',
+  FRAMER_MOTION = 'FRAMER_MOTION',
 
   // BACKEND
   NODE = 'NODE',

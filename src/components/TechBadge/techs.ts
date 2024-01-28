@@ -6,6 +6,7 @@ import ExpressIcon from '../../../public/techs/express.svg';
 import FeathersIcon from '../../../public/techs/feathers.svg';
 import FigmaIcon from '../../../public/techs/figma.svg';
 import FormikIcon from '../../../public/techs/formik.svg';
+import FramerMotionIcon from '../../../public/techs/framer-motion.svg';
 import GRPCIcon from '../../../public/techs/grpc.svg';
 import HtmlIcon from '../../../public/techs/html.svg';
 import JavaIcon from '../../../public/techs/java.svg';
@@ -168,5 +169,10 @@ export const techsArray: ITech[] = [
     name: TechEnum.SPRING_BOOT,
     icon: SpringBootIcon,
     label: 'Spring Boot',
+  },
+  {
+    name: TechEnum.FRAMER_MOTION,
+    icon: FramerMotionIcon,
+    label: 'Framer Motion',
   },
 ];
