@@ -12,6 +12,15 @@ import Informaq3 from '../../../public/projects/informaq-3.png';
 
 export const projects: IProjectCardProps[] = [
   {
+    id: "8c8cd595-b031-4bed-9110-61c2b9100b45",
+    title: "Workshop SpringBoot JPA",
+    images: [],
+    preview: "",
+    paragraphs: [],
+    techs: [TechEnum.JAVA],
+    githubLink: "https://github.com/julioceno/workshop-springboot3-jpa"
+  },
+  {
     id: '062e29c4-832d-4609-a9f8-0c328fbdf7b4',
     title: 'Informaq',
     images: [Informaq1, Informaq2, Informaq3],
