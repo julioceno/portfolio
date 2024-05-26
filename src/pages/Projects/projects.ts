@@ -38,7 +38,7 @@ export const projects: IProjectCardProps[] = [
     title: 'Drive More',
     preview:
       'Centralizando toda regra de negócio de uma autoescola, essa aplicação cuida da gestão das aulas dos alunos. Uma aplicação focada em agilizar o processo da autoecola visando sempre deixar registrado qualquer alteração feita dentro de um histórico de auditoria para fins de observabilidade.',
-    techs: [TechEnum.NODE, TechEnum.NEST, TechEnum.GRPC, TechEnum.PRISMA, TechEnum.POSTGRESQL],
+    techs: [TechEnum.NODE, TechEnum.NEST, TechEnum.GRPC, TechEnum.PRISMA, TechEnum.POSTGRESQL,TechEnum.DOCKER],
     paragraphs: [
       'Centralizando toda regra de negócio de uma autoescola, essa aplicação cuida da gestão das aulas dos alunos. Uma aplicação focada em agilizar o processo da autoecola visando sempre deixar registrado qualquer alteração feita dentro de um histórico de auditoria para fins de observabilidade.',
       'Para facilitar não só a vida da autoescola mas também do aluno, é possível gerar um pdf com todas as aulas marcadas pendentes. Isso foi implementado com o uso de worker threads, um módulo nativo do node js para lidar com programação paralela.',
@@ -71,7 +71,7 @@ export const projects: IProjectCardProps[] = [
       "Toda a aplicação foi desenvolvida com Java Sprint, utilizando o módulo do sprig para se trabalhar com mongo.",
       "Esse projeto foi desenvolvido em um curso."
     ],
-    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT, TechEnum.MONGODB],
+    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT, TechEnum.MONGODB, TechEnum.DOCKER],
     githubLink: "https://github.com/julioceno/workshop-springboot-mongodb"
   },
  {
@@ -104,7 +104,7 @@ export const projects: IProjectCardProps[] = [
     title: 'Todo List Java',
     preview:
       'Uma API desenvolvida em Java com Spring Boot para proporcionar uma experência eficiente e organizada para gerenciamento de tarefas. Com funcionalidades de gerenciamento e consulta das tarefas.',
-    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT],
+    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT,],
     paragraphs: [
       'Uma API desenvolvida em Java com Spring Boot para proporcionar uma experência eficiente e organizada para gerenciamento de tarefas. Com funcionalidades de gerenciamento e consulta das tarefas.',
       'A API fornece uma arquitetura sólida e de fácil entendimento. A aplicação em questão foi desenvolvida durante um bootcamp em que participei para colocar em prática conhecimentos de Java.',
@@ -127,6 +127,7 @@ export const projects: IProjectCardProps[] = [
       TechEnum.PRISMA,
       TechEnum.POSTGRESQL,
       TechEnum.MONOREPO,
+      TechEnum.DOCKER
     ],
     paragraphs: [
       'Uma aplicação que te ajuda a organizar suas tarefas do dia a dia, permitindo que voce torne sua vida muito mais organizada, facilitando também na escrita dos passos para cada tarefa, pois toda alteração feita no conjunto de atividades é salvo automaticamente, aumentando a produtividade e diminuindo a possibilidade de falhas.',
