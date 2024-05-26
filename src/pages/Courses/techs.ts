@@ -35,4 +35,5 @@ export const techs: TechEnumKeys[] = [
   TechEnum.PRISMA,
   TechEnum.MONOREPO,
   TechEnum.LOOPBACK,
+  TechEnum.SCENE_BUILDER,
 ];

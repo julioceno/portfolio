@@ -30,6 +30,7 @@ import PrismaIcon from '../../../public/techs/prisma.svg';
 import ReactFinalFormIcon from '../../../public/techs/react-final-form.svg';
 import ReactIcon from '../../../public/techs/react.svg';
 import RedisIcon from '../../../public/techs/redis.svg';
+import SceneBuilderIcon from '../../../public/techs/scene-builder.svg';
 import SpringBootIcon from '../../../public/techs/spring-boot.svg';
 import TailwindIcon from '../../../public/techs/tailwind.svg';
 import TensorFlowIcon from '../../../public/techs/tensor-flow.svg';
@@ -234,5 +235,10 @@ export const techsArray: ITech[] = [
     name: TechEnum.AWS,
     icon: AWSIcon,
     label: "Amazaon Web Services"
+  },
+  {
+    name: TechEnum.SCENE_BUILDER,
+    icon: SceneBuilderIcon,
+    label: "Scene Builder"
   },
 ];

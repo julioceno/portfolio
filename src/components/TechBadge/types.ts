@@ -43,6 +43,7 @@ export enum TechEnum {
   DOCKER = 'DOCKER',
   UML = 'UML',
   AWS = 'AWS',
+  SCENE_BUILDER = 'SCENE_BUILDER',
 }
 
 export type TechEnumKeys = keyof typeof TechEnum;

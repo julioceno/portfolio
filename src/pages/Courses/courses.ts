@@ -17,7 +17,19 @@ export const courses: ICourseCardProps[] = [
     image: JavaPhoto,
     title: 'Java COMPLETO Programação Orientada a Objetos + Projetos',
     preview:"Fortalecendo conceitos de Java e colocando a mão na massa através de projetos reais. Criando desde WEB API's até aplicações desktop. Alem de tudo, solidificando conhecimento em diferentes tipos de banco de dados e criando exemplos através de diagramas UML.",
-    techs: [TechEnum.JAVA, TechEnum.JAVA_FX, TechEnum.SPRING_BOOT, TechEnum.JDBC, TechEnum.JPA, TechEnum.POSTGRESQL, TechEnum.MYSQL, TechEnum.MONGODB, TechEnum.H2_CONSOLE, TechEnum.UML],
+    techs: [
+      TechEnum.JAVA,
+       TechEnum.SPRING_BOOT,
+       TechEnum.JDBC,
+       TechEnum.JPA,
+       TechEnum.JAVA_FX,
+       TechEnum.SCENE_BUILDER,
+       TechEnum.POSTGRESQL,
+       TechEnum.MYSQL,
+       TechEnum.MONGODB,
+       TechEnum.H2_CONSOLE,
+       TechEnum.UML
+      ],
     certificate: JavaCertificate,
   },
   {
