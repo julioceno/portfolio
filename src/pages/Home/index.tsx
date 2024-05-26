@@ -1,19 +1,20 @@
 import { observer } from 'mobx-react-lite';
 import MainIcon from '../../../public/main-icon.svg';
 import Resume from '../../../public/resume-julio-nepomuceno.pdf';
-import { Wrap } from '../../components';
+import { TechBadge, TechEnum, Wrap } from '../../components';
 import { themeStore } from '../../components/Header/store';
 import './style.css';
+
+const primaryTechs = [TechEnum.REACT, TechEnum.NODE, TechEnum.NEST, TechEnum.JAVA, TechEnum.SPRING_BOOT,TechEnum.DOCKER ]
 
 const Home = observer(() => {
   const isDarkMode = themeStore.theme === 'dark';
 
   const classTextShadow = isDarkMode ? 'text-with-shadow-dark' : 'text-with-shadow';
-
   return (
     <Wrap ocultFooter>
       <div className='flex-1 flex justify-center items-center mt-5 md:mt-0'>
-        <main className='flex flex-col items-center gap-10 md:grid grid-cols-2'>
+        <main className='flex flex-col items-center gap-5 md:grid grid-cols-2'>
           <div className='flex flex-col items-center md:items-start gap-3 grid-col-2'>
             <h1 className='text-2xl bp-400px:text-4xl lg:text-5xl xl:text6xl text-main-black dark:text-main-white font-medium text-center md:text-left font-poppins'>
               Desenvolvedor de <br />
@@ -29,6 +30,11 @@ const Home = observer(() => {
             >
               BAIXAR CURRÍCULO
             </a>
+            <div className='flex flex-wrap gap-2 justify-center md:justify-start sm:w-4/6 mt-1'>
+              {primaryTechs.map((tech) => (
+              <TechBadge name={tech} hasShadow />
+              ))}
+            </div>
           </div>
           <img
             src={MainIcon}
@@ -49,3 +55,4 @@ const Home = observer(() => {
 });
 
 export { Home };
+
