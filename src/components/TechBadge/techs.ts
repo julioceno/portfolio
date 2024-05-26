@@ -2,19 +2,26 @@ import { ITech, TechEnum } from './types';
 
 import CssIcon from '../../../public/techs/css.svg';
 import DenoIcon from '../../../public/techs/deno.svg';
+import DockerIcon from '../../../public/techs/docker.svg';
 import ExpressIcon from '../../../public/techs/express.svg';
 import FeathersIcon from '../../../public/techs/feathers.svg';
 import FigmaIcon from '../../../public/techs/figma.svg';
 import FormikIcon from '../../../public/techs/formik.svg';
 import FramerMotionIcon from '../../../public/techs/framer-motion.svg';
 import GRPCIcon from '../../../public/techs/grpc.svg';
+import h2ConsoleIcon from '../../../public/techs/h2-console.svg';
 import HtmlIcon from '../../../public/techs/html.svg';
+import JavaFX from '../../../public/techs/java-fx.svg';
 import JavaIcon from '../../../public/techs/java.svg';
 import JavascriptIcon from '../../../public/techs/javascript.svg';
+import JDBCIcon from '../../../public/techs/jdbc.svg';
 import JestIcon from '../../../public/techs/jest.svg';
+import JPAIcon from '../../../public/techs/jpa.svg';
 import LoopbackIcon from '../../../public/techs/loopback.svg';
 import MaterialUiIcon from '../../../public/techs/material-ui.svg';
 import MobxlIcon from '../../../public/techs/mobx.svg';
+import mongoIcon from '../../../public/techs/mongo.svg';
+import MysqlIcon from '../../../public/techs/mysql.svg';
 import NestIcon from '../../../public/techs/nest.svg';
 import NodeIcon from '../../../public/techs/node.svg';
 import PostgresqlIcon from '../../../public/techs/postgresql.svg';
@@ -174,5 +181,40 @@ export const techsArray: ITech[] = [
     name: TechEnum.FRAMER_MOTION,
     icon: FramerMotionIcon,
     label: 'Framer Motion',
+  },
+  {
+    name: TechEnum.MONGODB,
+    icon: mongoIcon,
+    label: 'Mongo DB',
+  },
+  {
+    name: TechEnum.H2_CONSOLE,
+    icon: h2ConsoleIcon,
+    label: 'H2 Console',
+  },
+  {
+    name: TechEnum.JAVA_FX,
+    icon: JavaFX,
+    label: "Java FX"
+  },
+  {
+    name: TechEnum.JPA,
+    icon: JPAIcon,
+    label: "JPA"
+  },
+  {
+    name: TechEnum.JDBC,
+    icon: JDBCIcon,
+    label: "JDBC"
+  },
+  {
+    name: TechEnum.DOCKER,
+    icon: DockerIcon,
+    label: "Docker"
+  },
+  {
+    name: TechEnum.MYSQL,
+    icon: MysqlIcon,
+    label: "Mysql"
   },
 ];

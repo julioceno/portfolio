@@ -13,6 +13,7 @@ export enum TechEnum {
   REACT_FINAL_FORM = 'REACT_FINAL_FORM',
   ZOD = 'ZOD',
   FRAMER_MOTION = 'FRAMER_MOTION',
+  JAVA_FX = 'JAVA_FX',
 
   // BACKEND
   NODE = 'NODE',
@@ -27,12 +28,18 @@ export enum TechEnum {
   JEST = 'JEST',
   TENSORFLOW = 'TENSORFLOW',
   POSTGRESQL = 'POSTGRESQL',
+  MYSQL = 'MYSQL',
   PRISMA = 'PRISMA',
   SPRING_BOOT = 'SPRING_BOOT',
+  MONGODB = 'MONGODB',
+  H2_CONSOLE = 'H2_CONSOLE',
+  JDBC="JDBC",
+  JPA="JPA",
 
   // OTHER
   MONOREPO = 'MONOREPO',
   FIGMA = 'FIGMA',
+  DOCKER = 'DOCKER',
 }
 
 export type TechEnumKeys = keyof typeof TechEnum;
