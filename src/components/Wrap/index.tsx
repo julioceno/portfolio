@@ -9,7 +9,7 @@ interface Props {
 
 export function Wrap({ children, ocultFooter }: Props) {
   return (
-    <div className={`bg-main-white dark:bg-dark-main-black h-screen`}>
+    <div className="bg-main-white dark:bg-dark-main-black h-screen">
       <div
         className={`h-full flex flex-col overflow-y-auto max-w-[2000px] mx-auto ${SCROLLBAR_DEFAULT}`}
       >
