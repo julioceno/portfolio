@@ -29,6 +29,7 @@ export const techs: TechEnumKeys[] = [
   TechEnum.EXPRESS,
   TechEnum.MOBX,
   TechEnum.REACT_FINAL_FORM,
+  TechEnum.FORMIK,
   TechEnum.ZOD,
   TechEnum.TENSORFLOW,
   TechEnum.PRISMA,
