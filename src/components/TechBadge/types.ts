@@ -35,11 +35,14 @@ export enum TechEnum {
   H2_CONSOLE = 'H2_CONSOLE',
   JDBC="JDBC",
   JPA="JPA",
+  REDIS="REDIS",
 
   // OTHER
   MONOREPO = 'MONOREPO',
   FIGMA = 'FIGMA',
   DOCKER = 'DOCKER',
+  UML = 'UML',
+  AWS = 'AWS',
 }
 
 export type TechEnumKeys = keyof typeof TechEnum;

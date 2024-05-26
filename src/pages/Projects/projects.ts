@@ -17,6 +17,7 @@ import JavaFx2 from '../../../public/projects/javafx-2.png';
 import JavaFx3 from '../../../public/projects/javafx-3.png';
 import JavaFx4 from '../../../public/projects/javafx-4.png';
 
+
 export const projects: IProjectCardProps[] = [
   {
     id: '062e29c4-832d-4609-a9f8-0c328fbdf7b4',

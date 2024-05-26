@@ -2,15 +2,26 @@ import { TechEnum } from '../../components';
 import { ICourseCardProps } from './types';
 
 import CourseErickWendelPhoto from '../../../public/courses/erick-wendel.svg';
+import JavaPhoto from '../../../public/courses/java.svg';
+import JavascriptFullstack from '../../../public/courses/javascript-fullstack.svg';
 import JavascriptPhoto from '../../../public/courses/javascript.svg';
-import UdemyPhoto from '../../../public/courses/udemy.svg';
+import TailwindPhoto from '../../../public/courses/tailwind.svg';
 
+import JavaCertificate from '../../../public/certificate/java-course.pdf';
 import TailwindCertificate from '../../../public/certificate/tailwind-course.pdf';
 import WeekJsExpertCertificate from '../../../public/certificate/week-js-expert-07.pdf';
 
+
 export const courses: ICourseCardProps[] = [
   {
-    image: UdemyPhoto,
+    image: JavaPhoto,
+    title: 'Java COMPLETO Programação Orientada a Objetos + Projetos',
+    preview:"Fortalecendo conceitos de Java e colocando a mão na massa através de projetos reais. Criando desde WEB API's até aplicações desktop. Alem de tudo, solidificando conhecimento em diferentes tipos de banco de dados e criando exemplos através de diagramas UML.",
+    techs: [TechEnum.JAVA, TechEnum.JAVA_FX, TechEnum.SPRING_BOOT, TechEnum.JDBC, TechEnum.JPA, TechEnum.POSTGRESQL, TechEnum.MYSQL, TechEnum.MONGODB, TechEnum.H2_CONSOLE, TechEnum.UML],
+    certificate: JavaCertificate,
+  },
+  {
+    image: TailwindPhoto,
     title: 'Tailwind CSS do zero ao avançado + Projetos',
     preview:
       'Este curso me ajudou a aprofundar os meus conhecimentos em tailwind, através de projetos reais consegui colocar esses conhecimentos em praticas dentro do curso.',
@@ -27,7 +38,7 @@ export const courses: ICourseCardProps[] = [
   },
   {
     title: 'Curso Web Moderno Completo com JavaScript + Projetos',
-    image: UdemyPhoto,
+    image: JavascriptFullstack,
     preview:
       'Neste curso fortaleci minha base em programação, criando projetos reais pensados no mercado de trabalho. O curso abordou tanto assunto de frontend quanto de backend.',
     techs: [TechEnum.HTML, TechEnum.CSS, TechEnum.JAVASCRIPT, TechEnum.NODE],

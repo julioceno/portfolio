@@ -1,5 +1,6 @@
 import { ITech, TechEnum } from './types';
 
+import AWSIcon from '../../../public/techs/aws.svg';
 import CssIcon from '../../../public/techs/css.svg';
 import DenoIcon from '../../../public/techs/deno.svg';
 import DockerIcon from '../../../public/techs/docker.svg';
@@ -28,11 +29,13 @@ import PostgresqlIcon from '../../../public/techs/postgresql.svg';
 import PrismaIcon from '../../../public/techs/prisma.svg';
 import ReactFinalFormIcon from '../../../public/techs/react-final-form.svg';
 import ReactIcon from '../../../public/techs/react.svg';
+import RedisIcon from '../../../public/techs/redis.svg';
 import SpringBootIcon from '../../../public/techs/spring-boot.svg';
 import TailwindIcon from '../../../public/techs/tailwind.svg';
 import TensorFlowIcon from '../../../public/techs/tensor-flow.svg';
 import TRPCIcon from '../../../public/techs/trpc.svg';
 import TypescriptIcon from '../../../public/techs/typescript.svg';
+import UMLIcon from '../../../public/techs/uml.svg';
 import VercelIcon from '../../../public/techs/vercel.svg';
 import ZodIcon from '../../../public/techs/zod.svg';
 
@@ -216,5 +219,20 @@ export const techsArray: ITech[] = [
     name: TechEnum.MYSQL,
     icon: MysqlIcon,
     label: "Mysql"
+  },
+  {
+    name: TechEnum.UML,
+    icon: UMLIcon,
+    label: "UML"
+  }, 
+  {
+    name: TechEnum.REDIS,
+    icon: RedisIcon,
+    label: "Redis"
+  },
+  {
+    name: TechEnum.AWS,
+    icon: AWSIcon,
+    label: "Amazaon Web Services"
   },
 ];
