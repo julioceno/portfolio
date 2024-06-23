@@ -12,6 +12,7 @@ import Informaq3 from '../../../public/projects/informaq-3.png';
 
 import ChessSystem from '../../../public/projects/chess-system-1.png';
 
+import EasyStation1 from '../../../public/projects/easy-station-1.png';
 import JavaFx1 from '../../../public/projects/javafx-1.png';
 import JavaFx2 from '../../../public/projects/javafx-2.png';
 import JavaFx3 from '../../../public/projects/javafx-3.png';
@@ -32,6 +33,18 @@ export const projects: IProjectCardProps[] = [
     techs: [TechEnum.REACT, TechEnum.TAILWIND, TechEnum.FRAMER_MOTION],
     applicationLink: 'https://informaq.vercel.app/',
     githubLink: 'https://github.com/julioceno/informaq/',
+  },
+  { 
+    id: "71bebb7f-8f1c-4144-9d67-dc53b7d568c3",
+    title: "Easy Station", 
+    images: [EasyStation1],
+    preview: "Api de um produto de gerenciamento de estacionamentos. Cuida da gestão de cada empresa desde a parte operacional até a parte financeira mensurando quanto o cliente deve pagar no ato de saída.",
+    paragraphs: [
+      "Api de um produto de gerenciamento de estacionamentos. Cuida da gestão de cada empresa desde a parte operacional até a parte financeira mensurando quanto o cliente deve pagar no ato de saída.",
+      "Projeto foi divido em dois serviços diferentes, um é o SSO que vai cuidar de toda parte de autenticação e gerenciamento de usuários. O outro é o management, que vai cuidar de toda regra de negócio do sistema."
+    ],
+    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT, TechEnum.SPRING_SECURITY, TechEnum.GRPC, TechEnum.JPA, TechEnum.MONGODB, TechEnum.POSTGRESQL, TechEnum.FLYWAY, TechEnum.DOCKER, TechEnum.JUNIT, TechEnum.MOCKITO],
+    githubLink: "https://github.com/julioceno/easy-station"
   },
   {
     id: 'c01be456-bb9d-41e8-84b2-73b0b5d05e9e',
@@ -104,7 +117,7 @@ export const projects: IProjectCardProps[] = [
     title: 'Todo List Java',
     preview:
       'Uma API desenvolvida em Java com Spring Boot para proporcionar uma experência eficiente e organizada para gerenciamento de tarefas. Com funcionalidades de gerenciamento e consulta das tarefas.',
-    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT,],
+    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT],
     paragraphs: [
       'Uma API desenvolvida em Java com Spring Boot para proporcionar uma experência eficiente e organizada para gerenciamento de tarefas. Com funcionalidades de gerenciamento e consulta das tarefas.',
       'A API fornece uma arquitetura sólida e de fácil entendimento. A aplicação em questão foi desenvolvida durante um bootcamp em que participei para colocar em prática conhecimentos de Java.',

@@ -9,6 +9,7 @@ import DockerIcon from '../../../public/techs/docker.svg';
 import ExpressIcon from '../../../public/techs/express.svg';
 import FeathersIcon from '../../../public/techs/feathers.svg';
 import FigmaIcon from '../../../public/techs/figma.svg';
+import FlyWayIcon from '../../../public/techs/flyway.svg';
 import FormikIcon from '../../../public/techs/formik.svg';
 import FramerMotionIcon from '../../../public/techs/framer-motion.svg';
 import GRPCIcon from '../../../public/techs/grpc.svg';
@@ -270,5 +271,10 @@ export const techsArray: ITech[] = [
     name: TechEnum.AWS_SQS,
     icon: AwsSqsIcon,
     label: "AWS SQS"
+  }, 
+  {
+    name: TechEnum.FLYWAY,
+    icon: FlyWayIcon,
+    label: "Flyway"
   }
 ];

@@ -14,6 +14,7 @@ export const techs: TechEnumKeys[] = [
   TechEnum.JUNIT,
   TechEnum.MOCKITO,
   TechEnum.JAVA_FX,
+  TechEnum.FLYWAY,
   TechEnum.GRPC,
   TechEnum.TRPC,
   TechEnum.POSTGRESQL,
