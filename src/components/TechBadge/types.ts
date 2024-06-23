@@ -36,6 +36,9 @@ export enum TechEnum {
   JDBC="JDBC",
   JPA="JPA",
   REDIS="REDIS",
+  SPRING_SECURITY="SPRING_SECURITY",
+  JUNIT="JUNIT",
+  MOCKITO="MOCKITO",
 
   // OTHER
   MONOREPO = 'MONOREPO',
@@ -43,6 +46,9 @@ export enum TechEnum {
   DOCKER = 'DOCKER',
   UML = 'UML',
   AWS = 'AWS',
+  AWS_S3 = "AWS_S3",
+  AWS_SQS = "AWS_SQS",
+
   SCENE_BUILDER = 'SCENE_BUILDER',
 }
 

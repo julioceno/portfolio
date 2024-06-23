@@ -1,5 +1,7 @@
 import { ITech, TechEnum } from './types';
 
+import AwsS3Icon from '../../../public/techs/aws-s3.svg';
+import AwsSqsIcon from '../../../public/techs/aws-sqs.svg';
 import AWSIcon from '../../../public/techs/aws.svg';
 import CssIcon from '../../../public/techs/css.svg';
 import DenoIcon from '../../../public/techs/deno.svg';
@@ -18,9 +20,11 @@ import JavascriptIcon from '../../../public/techs/javascript.svg';
 import JDBCIcon from '../../../public/techs/jdbc.svg';
 import JestIcon from '../../../public/techs/jest.svg';
 import JPAIcon from '../../../public/techs/jpa.svg';
+import JunitIcon from '../../../public/techs/junit.svg';
 import LoopbackIcon from '../../../public/techs/loopback.svg';
 import MaterialUiIcon from '../../../public/techs/material-ui.svg';
 import MobxlIcon from '../../../public/techs/mobx.svg';
+import MockitoIcon from '../../../public/techs/mockito.svg';
 import mongoIcon from '../../../public/techs/mongo.svg';
 import MysqlIcon from '../../../public/techs/mysql.svg';
 import NestIcon from '../../../public/techs/nest.svg';
@@ -32,6 +36,7 @@ import ReactIcon from '../../../public/techs/react.svg';
 import RedisIcon from '../../../public/techs/redis.svg';
 import SceneBuilderIcon from '../../../public/techs/scene-builder.svg';
 import SpringBootIcon from '../../../public/techs/spring-boot.svg';
+import SpringSecurityIcon from '../../../public/techs/spring-security.svg';
 import TailwindIcon from '../../../public/techs/tailwind.svg';
 import TensorFlowIcon from '../../../public/techs/tensor-flow.svg';
 import TRPCIcon from '../../../public/techs/trpc.svg';
@@ -241,4 +246,29 @@ export const techsArray: ITech[] = [
     icon: SceneBuilderIcon,
     label: "Scene Builder"
   },
+  {
+    name: TechEnum.SPRING_SECURITY,
+    icon: SpringSecurityIcon,
+    label: "Spring Security"
+  },
+  {
+    name: TechEnum.JUNIT,
+    icon: JunitIcon,
+    label: "Junit"
+  },
+  {
+    name: TechEnum.MOCKITO,
+    icon: MockitoIcon,
+    label: "Mockito"
+  },
+  {
+    name: TechEnum.AWS_S3,
+    icon: AwsS3Icon,
+    label: "AWS S3"
+  },
+  {
+    name: TechEnum.AWS_SQS,
+    icon: AwsSqsIcon,
+    label: "AWS SQS"
+  }
 ];
