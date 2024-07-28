@@ -1,5 +1,6 @@
 import { ITech, TechEnum } from './types';
 
+import AwsEc2Icon from '../../../public/techs/aws-ec2.svg';
 import AwsS3Icon from '../../../public/techs/aws-s3.svg';
 import AwsSqsIcon from '../../../public/techs/aws-sqs.svg';
 import AWSIcon from '../../../public/techs/aws.svg';
@@ -22,6 +23,7 @@ import JDBCIcon from '../../../public/techs/jdbc.svg';
 import JestIcon from '../../../public/techs/jest.svg';
 import JPAIcon from '../../../public/techs/jpa.svg';
 import JunitIcon from '../../../public/techs/junit.svg';
+import kubernetesIcon from '../../../public/techs/kubernetes.svg';
 import LoopbackIcon from '../../../public/techs/loopback.svg';
 import MaterialUiIcon from '../../../public/techs/material-ui.svg';
 import MobxlIcon from '../../../public/techs/mobx.svg';
@@ -40,6 +42,7 @@ import SpringBootIcon from '../../../public/techs/spring-boot.svg';
 import SpringSecurityIcon from '../../../public/techs/spring-security.svg';
 import TailwindIcon from '../../../public/techs/tailwind.svg';
 import TensorFlowIcon from '../../../public/techs/tensor-flow.svg';
+import terraformIcon from '../../../public/techs/terraform.svg';
 import TRPCIcon from '../../../public/techs/trpc.svg';
 import TypescriptIcon from '../../../public/techs/typescript.svg';
 import UMLIcon from '../../../public/techs/uml.svg';
@@ -271,10 +274,25 @@ export const techsArray: ITech[] = [
     name: TechEnum.AWS_SQS,
     icon: AwsSqsIcon,
     label: "AWS SQS"
+  },
+  {
+    name: TechEnum.AWS_EC2,
+    icon: AwsEc2Icon,
+    label: "AWS EC2"
+  }, 
+  {
+    name: TechEnum.TERRAFORM,
+    icon: terraformIcon,
+    label: "Terraform"
+  }, 
+  {
+    name: TechEnum.KUBERNETES,
+    icon: kubernetesIcon,
+    label: "Kubernetes"
   }, 
   {
     name: TechEnum.FLYWAY,
     icon: FlyWayIcon,
     label: "Flyway"
-  }
+  },
 ];

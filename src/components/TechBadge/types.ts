@@ -49,6 +49,9 @@ export enum TechEnum {
   AWS = 'AWS',
   AWS_S3 = "AWS_S3",
   AWS_SQS = "AWS_SQS",
+  AWS_EC2 = "AWS_EC2",
+  KUBERNETES = "KUBERNETES",
+  TERRAFORM = "TERRAFORM",
 
   SCENE_BUILDER = 'SCENE_BUILDER',
 }
