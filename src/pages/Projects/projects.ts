@@ -18,21 +18,25 @@ import JavaFx2 from '../../../public/projects/javafx-2.png';
 import JavaFx3 from '../../../public/projects/javafx-3.png';
 import JavaFx4 from '../../../public/projects/javafx-4.png';
 
+import TheBarberStudio1 from '../../../public/projects/the-barber-studio-1.png';
+import TheBarberStudio2 from '../../../public/projects/the-barber-studio-2.png';
+import TheBarberStudio3 from '../../../public/projects/the-barber-studio-3.png';
+
 
 export const projects: IProjectCardProps[] = [
   {
-    id: '062e29c4-832d-4609-a9f8-0c328fbdf7b4',
-    title: 'Informaq',
-    images: [Informaq1, Informaq2, Informaq3],
+    id: '689eb5bd-64aa-4e48-a70e-a8938df500e8',
+    title: 'The Barber Studio',
+    images: [TheBarberStudio2, TheBarberStudio3, TheBarberStudio1],
     preview:
-      'Um site desenvolvido para a assistência técnica da informaq com o intuito de mostrar os seus serviços e disponibilizar o meio de contato. Com um layout limpo, apresenta as informações de forma didática.',
+      'O site da Barbearia "The Barber Studio" foi desenvolvido para destacar seus serviços e facilitar o contato com os clientes. Com um layout moderno e elegante, ele apresenta de forma clara os serviços oferecidos, como corte de cabelo, barboterapia e tratamentos de pele, além de informações sobre os cursos disponíveis para novos profissionais.',
     paragraphs: [
-      'Um site desenvolvido para a assistência técnica da informaq com o intuito de mostrar os seus serviços e disponibilizar o meio de contato. Com um layout limpo, apresenta as informações de forma didática.',
-      'O processo de construção do site começou desde sua prototipação, após validado com o cliente sobre o layout, começou assim o desenvolvido com react e utilizando tailwind para a estilização. Também, utilizei o framer motion para me auxiliar a fazer animações bonitas e suaves.',
+      'O site da Barbearia "The Barber Studio" foi desenvolvido para destacar seus serviços e facilitar o contato com os clientes. Com um layout moderno e elegante, ele apresenta de forma clara os serviços oferecidos, como corte de cabelo, barboterapia e tratamentos de pele, além de informações sobre os cursos disponíveis para novos profissionais.',
+      'A construção do site começou com a prototipação e, após a validação do layout, foi implementado utilizando React para a interface, Tailwind CSS para estilização e Framer Motion para criar animações suaves e sofisticadas. O resultado é uma plataforma funcional e esteticamente agradável que reflete a qualidade e o cuidado da Barbearia Elegância.',
     ],
-    techs: [TechEnum.REACT, TechEnum.TAILWIND, TechEnum.FRAMER_MOTION],
-    applicationLink: 'https://informaq.vercel.app/',
-    githubLink: 'https://github.com/julioceno/informaq/',
+    techs: [TechEnum.REACT, TechEnum.NEXT, TechEnum.TYPESCRIPT, TechEnum.TAILWIND, TechEnum.FRAMER_MOTION],
+    applicationLink: 'https://thebarberstudio.com.br/',
+    githubLink: 'https://github.com/julioceno/the-barber-studio/',
   },
   { 
     id: "71bebb7f-8f1c-4144-9d67-dc53b7d568c3",
@@ -60,6 +64,20 @@ export const projects: IProjectCardProps[] = [
     ],
     images: [],
     githubLink: 'https://github.com/julioceno/drive-more',
+  },
+  {
+    id: '062e29c4-832d-4609-a9f8-0c328fbdf7b4',
+    title: 'Informaq',
+    images: [Informaq1, Informaq2, Informaq3],
+    preview:
+      'Um site desenvolvido para a assistência técnica da informaq com o intuito de mostrar os seus serviços e disponibilizar o meio de contato. Com um layout limpo, apresenta as informações de forma didática.',
+    paragraphs: [
+      'Um site desenvolvido para a assistência técnica da informaq com o intuito de mostrar os seus serviços e disponibilizar o meio de contato. Com um layout limpo, apresenta as informações de forma didática.',
+      'O processo de construção do site começou desde sua prototipação, após validado com o cliente sobre o layout, começou assim o desenvolvido com react e utilizando tailwind para a estilização. Também, utilizei o framer motion para me auxiliar a fazer animações bonitas e suaves.',
+    ],
+    techs: [TechEnum.REACT, TechEnum.TAILWIND, TechEnum.FRAMER_MOTION],
+    applicationLink: 'https://informaq.vercel.app/',
+    githubLink: 'https://github.com/julioceno/informaq/',
   },
   {
     id: "0d3e3f78-20c4-4e13-9c25-347019c9e8f7",

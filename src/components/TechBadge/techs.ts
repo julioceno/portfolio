@@ -7,6 +7,7 @@ import AWSIcon from '../../../public/techs/aws.svg';
 import CssIcon from '../../../public/techs/css.svg';
 import DenoIcon from '../../../public/techs/deno.svg';
 import DockerIcon from '../../../public/techs/docker.svg';
+import ExpoIcon from '../../../public/techs/expo.svg';
 import ExpressIcon from '../../../public/techs/express.svg';
 import FeathersIcon from '../../../public/techs/feathers.svg';
 import FigmaIcon from '../../../public/techs/figma.svg';
@@ -31,6 +32,7 @@ import MockitoIcon from '../../../public/techs/mockito.svg';
 import mongoIcon from '../../../public/techs/mongo.svg';
 import MysqlIcon from '../../../public/techs/mysql.svg';
 import NestIcon from '../../../public/techs/nest.svg';
+import NextIcon from '../../../public/techs/next.svg';
 import NodeIcon from '../../../public/techs/node.svg';
 import PostgresqlIcon from '../../../public/techs/postgresql.svg';
 import PrismaIcon from '../../../public/techs/prisma.svg';
@@ -294,5 +296,15 @@ export const techsArray: ITech[] = [
     name: TechEnum.FLYWAY,
     icon: FlyWayIcon,
     label: "Flyway"
+  },
+  {
+    name: TechEnum.NEXT,
+    icon: NextIcon,
+    label: "Next"
+  },
+  {
+    name: TechEnum.EXPO,
+    icon: ExpoIcon,
+    label: "EXPO"
   },
 ];
