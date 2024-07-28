@@ -13,7 +13,7 @@ export function Project() {
         <div className='flex flex-col items-center pb-10 2xl:px-60 '>
           <h5 className='font-bold text-xl md:text-3xl mt-10'>{project.title}</h5>
 
-          <div className='flex flex-wrap gap-2 md:gap-2 justify-center md:justify-start mt-5'>
+          <div className='flex flex-wrap gap-2 md:gap-2 justify-center mt-5 '>
             {project.techs.map((tech) => (
               <TechBadge name={tech} hasShadow />
             ))}

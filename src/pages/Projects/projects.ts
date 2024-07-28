@@ -22,6 +22,11 @@ import TheBarberStudio1 from '../../../public/projects/the-barber-studio-1.png';
 import TheBarberStudio2 from '../../../public/projects/the-barber-studio-2.png';
 import TheBarberStudio3 from '../../../public/projects/the-barber-studio-3.png';
 
+import Planner1 from '../../../public/projects/planner-1.png';
+import Planner2 from '../../../public/projects/planner-2.png';
+import Planner3 from '../../../public/projects/planner-3.png';
+import Planner4 from '../../../public/projects/planner-4.png';
+
 
 export const projects: IProjectCardProps[] = [
   {
@@ -78,6 +83,18 @@ export const projects: IProjectCardProps[] = [
     techs: [TechEnum.REACT, TechEnum.TAILWIND, TechEnum.FRAMER_MOTION],
     applicationLink: 'https://informaq.vercel.app/',
     githubLink: 'https://github.com/julioceno/informaq/',
+  },
+  {
+    id: '5c731167-3f58-43ac-a528-f45a04a046ee',
+    title: 'Planner',
+    images: [Planner1, Planner2, Planner3, Planner4 ],
+    preview:
+      'Uma aplicação desenvolvida desde o mobile até o backend, focada em organizar amigos a organizar suas viagens com diversas funcionalidades para o grupo ter o máximo da viagem desde seu planejamento até o final da viagem.',
+    paragraphs: [
+      'Uma aplicação desenvolvida desde o mobile até o backend, focada em organizar amigos a organizar suas viagens com diversas funcionalidades para o grupo ter o máximo da viagem desde seu planejamento até o final da viagem.',
+    ],
+    techs: [TechEnum.REACT_NATIVE, TechEnum.EXPO, TechEnum.TAILWIND, TechEnum.TYPESCRIPT, TechEnum.JAVA, TechEnum.SPRING_BOOT],
+    githubLink: 'https://github.com/julioceno/Planner/',
   },
   {
     id: "0d3e3f78-20c4-4e13-9c25-347019c9e8f7",
