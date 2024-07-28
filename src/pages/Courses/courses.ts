@@ -19,7 +19,7 @@ import WeekJsExpertCertificate from '../../../public/certificate/week-js-expert-
 export const courses: ICourseCardProps[] = [
   {
     image: UnicesumarPhoto,
-    title: 'Engenharia de Software - UniCesumar',
+    title: 'Bacharelado em Engenharia de Software - UniCesumar',
     preview:"Desenvolvendo uma base sólida em Engenharia de Software através de estudos teóricos e práticos. Explorando desde algoritmos e estruturas de dados até metodologias ágeis. Além disso, consolidando conhecimento em diferentes paradigmas de programação e criando exemplos através de diagramas UML e outras técnicas de modelagem.",
     techs: [
       TechEnum.UML
