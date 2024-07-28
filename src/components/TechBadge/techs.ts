@@ -1,6 +1,7 @@
 import { ITech, TechEnum } from './types';
 
 import AwsEc2Icon from '../../../public/techs/aws-ec2.svg';
+import AwsEksIcon from '../../../public/techs/aws-eks.svg';
 import AwsS3Icon from '../../../public/techs/aws-s3.svg';
 import AwsSqsIcon from '../../../public/techs/aws-sqs.svg';
 import AWSIcon from '../../../public/techs/aws.svg';
@@ -281,6 +282,11 @@ export const techsArray: ITech[] = [
     name: TechEnum.AWS_EC2,
     icon: AwsEc2Icon,
     label: "AWS EC2"
+  }, 
+  {
+    name: TechEnum.AWS_EKS,
+    icon: AwsEksIcon,
+    label: "AWS EKS"
   }, 
   {
     name: TechEnum.TERRAFORM,

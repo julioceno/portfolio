@@ -51,7 +51,7 @@ export const courses: ICourseCardProps[] = [
     techs: [
       TechEnum.DOCKER,
       TechEnum.AWS,
-      TechEnum.AWS_EC2,
+      TechEnum.AWS_EKS,
       TechEnum.KUBERNETES,
       TechEnum.TERRAFORM,
     ],
