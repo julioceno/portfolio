@@ -5,7 +5,18 @@ import { TechBadge, TechEnum, Wrap } from '../../components';
 import { themeStore } from '../../components/Header/store';
 import './style.css';
 
-const primaryTechs = [TechEnum.REACT, TechEnum.NODE, TechEnum.NEST, TechEnum.JAVA, TechEnum.SPRING_BOOT,TechEnum.DOCKER ]
+const primaryTechs = [
+  TechEnum.REACT,
+  TechEnum.NODE,
+  TechEnum.NEST,
+  TechEnum.JAVA,
+  TechEnum.SPRING_BOOT,
+  TechEnum.GO,
+  TechEnum.GINGONIC,
+  TechEnum.AWS_SHORT,
+  TechEnum.MICROSERVICES,
+  TechEnum.DOCKER
+]
 
 const Home = observer(() => {
   const isDarkMode = themeStore.theme === 'dark';

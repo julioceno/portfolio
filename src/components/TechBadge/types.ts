@@ -51,6 +51,7 @@ export enum TechEnum {
   DOCKER = 'DOCKER',
   UML = 'UML',
   AWS = 'AWS',
+  AWS_SHORT = 'AWS_SHORT',
   AWS_S3 = "AWS_S3",
   AWS_SQS = "AWS_SQS",
   AWS_SNS = "AWS_SNS",

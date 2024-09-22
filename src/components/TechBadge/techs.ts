@@ -255,6 +255,11 @@ export const techsArray: ITech[] = [
     label: "Amazaon Web Services"
   },
   {
+    name: TechEnum.AWS_SHORT,
+    icon: AWSIcon,
+    label: "AWS"
+  },
+  {
     name: TechEnum.SCENE_BUILDER,
     icon: SceneBuilderIcon,
     label: "Scene Builder"
