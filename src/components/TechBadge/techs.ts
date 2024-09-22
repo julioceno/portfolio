@@ -2,6 +2,8 @@ import { ITech, TechEnum } from './types';
 
 import AwsEc2Icon from '../../../public/techs/aws-ec2.svg';
 import AwsEksIcon from '../../../public/techs/aws-eks.svg';
+import AwsEventBridgeIcon from '../../../public/techs/aws-event-bridge.svg';
+import AwsLambdaIcon from '../../../public/techs/aws-lambda.svg';
 import AwsS3Icon from '../../../public/techs/aws-s3.svg';
 import AwsSqsIcon from '../../../public/techs/aws-sqs.svg';
 import AWSIcon from '../../../public/techs/aws.svg';
@@ -15,6 +17,8 @@ import FigmaIcon from '../../../public/techs/figma.svg';
 import FlyWayIcon from '../../../public/techs/flyway.svg';
 import FormikIcon from '../../../public/techs/formik.svg';
 import FramerMotionIcon from '../../../public/techs/framer-motion.svg';
+import GinGonic from '../../../public/techs/gin-gonic.svg';
+import GoIcon from '../../../public/techs/go.svg';
 import GRPCIcon from '../../../public/techs/grpc.svg';
 import h2ConsoleIcon from '../../../public/techs/h2-console.svg';
 import HtmlIcon from '../../../public/techs/html.svg';
@@ -28,6 +32,7 @@ import JunitIcon from '../../../public/techs/junit.svg';
 import kubernetesIcon from '../../../public/techs/kubernetes.svg';
 import LoopbackIcon from '../../../public/techs/loopback.svg';
 import MaterialUiIcon from '../../../public/techs/material-ui.svg';
+import MicroservicesIcon from '../../../public/techs/microservices.svg';
 import MobxlIcon from '../../../public/techs/mobx.svg';
 import MockitoIcon from '../../../public/techs/mockito.svg';
 import mongoIcon from '../../../public/techs/mongo.svg';
@@ -289,6 +294,16 @@ export const techsArray: ITech[] = [
     label: "AWS EKS"
   }, 
   {
+    name: TechEnum.AWS_LAMBDA,
+    icon: AwsLambdaIcon,
+    label: "AWS Lambda"
+  }, 
+  {
+    name: TechEnum.AWS_EVENTBRIDGE,
+    icon: AwsEventBridgeIcon,
+    label: "Aws Event Bridge"
+  }, 
+  {
     name: TechEnum.TERRAFORM,
     icon: terraformIcon,
     label: "Terraform"
@@ -312,5 +327,20 @@ export const techsArray: ITech[] = [
     name: TechEnum.EXPO,
     icon: ExpoIcon,
     label: "EXPO"
+  },
+  {
+    name: TechEnum.MICROSERVICES,
+    icon: MicroservicesIcon,
+    label: "Microsserviços"
+  },
+  {
+    name: TechEnum.GO,
+    icon: GoIcon,
+    label: "Go"
+  },
+  {
+    name: TechEnum.GINGONIC,
+    icon: GinGonic,
+    label: "Gin Gonic"
   },
 ];

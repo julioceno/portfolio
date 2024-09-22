@@ -2,6 +2,7 @@ import { TechEnum } from '../../components';
 import { ICourseCardProps } from './types';
 
 import CourseErickWendelPhoto from '../../../public/courses/erick-wendel.svg';
+import GoLangCoursePhoto from '../../../public/courses/go-lang.svg';
 import JavaPhoto from '../../../public/courses/java.svg';
 import JavascriptFullstack from '../../../public/courses/javascript-fullstack.svg';
 import JavascriptPhoto from '../../../public/courses/javascript.svg';
@@ -9,6 +10,7 @@ import NlwJourneyPhoto from '../../../public/courses/nlw-journey.svg';
 import TailwindPhoto from '../../../public/courses/tailwind.svg';
 import UnicesumarPhoto from '../../../public/courses/unicesumar.svg';
 
+import GoLangCourseCertificate from '../../../public/certificate/go-lang.pdf';
 import JavaCertificate from '../../../public/certificate/java-course.pdf';
 import NlwJourneyDevops from '../../../public/certificate/nlw-journey-devops.pdf';
 import NlwJourneyReactNative from '../../../public/certificate/nlw-journey-react-native.pdf';
@@ -43,6 +45,28 @@ export const courses: ICourseCardProps[] = [
        TechEnum.UML*/
       ],
     certificate: JavaCertificate,
+  },
+  {
+    image: GoLangCoursePhoto,
+    title: "Go (Golang): Explorando a Linguagem do Google",
+    preview: 'Neste curso, aprofundei meus conhecimentos sobre Go, Explorando os motivos de sua criação e aprendendo técnicas avançadas para lidar com concorrência na linguagem.',
+    techs: [
+      TechEnum.GO
+    ],
+    certificate: GoLangCourseCertificate
+  },
+  {
+    image: NlwJourneyPhoto, 
+    title: 'NLW Journey - Devops',
+    preview:"Subindo uma aplicação em container docker dentro de um kubernetes para a AWS no serviço EC2. Criando manifestos para controlar determinadas politicas no processo de deploy.",
+    techs: [
+      TechEnum.DOCKER,
+      TechEnum.AWS,
+      TechEnum.AWS_EKS,
+      TechEnum.KUBERNETES,
+      TechEnum.TERRAFORM,
+    ],
+    certificate: NlwJourneyDevops,
   },
   {
     image: NlwJourneyPhoto, 

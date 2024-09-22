@@ -27,8 +27,23 @@ import Planner2 from '../../../public/projects/planner-2.png';
 import Planner3 from '../../../public/projects/planner-3.png';
 import Planner4 from '../../../public/projects/planner-4.png';
 
+import TicketEasy1 from '../../../public/projects/ticket-easy-arch.png';
+
 
 export const projects: IProjectCardProps[] = [
+  {
+    id: 'a5d137c2-5d1e-4b23-a978-fd98ff501dd3',
+    title: 'Ticket Easy',
+    images: [TicketEasy1],
+    preview:
+      'O objetivo desta aplicação é resolver os desafios de vender ingressos em larga escala, garantindo alta escalabilidade, processamento eficiente, e uma arquitetura modular, baseada em microserviços. A integração com a AWS proporciona flexibilidade e escalabilidade, permitindo o processamento de grandes volumes de eventos e mensagens.',
+    paragraphs: [
+      'O objetivo desta aplicação é resolver os desafios de vender ingressos em larga escala, garantindo alta escalabilidade, processamento eficiente, e uma arquitetura modular, baseada em microserviços. A integração com a AWS proporciona flexibilidade e escalabilidade, permitindo o processamento de grandes volumes de eventos e mensagens.',
+      'Este projeto é uma aplicação escalável e eficiente para gerenciar a venda de ingressos em larga escala, utilizando uma arquitetura de microserviços e várias tecnologias, como Golang, Java, e serviços da AWS.'
+    ],
+    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT, TechEnum.GO, TechEnum.GINGONIC, TechEnum.MICROSERVICES, TechEnum.AWS_LAMBDA, TechEnum.AWS_EVENTBRIDGE, TechEnum.AWS_SQS, TechEnum.MONGODB, TechEnum.POSTGRESQL, TechEnum.DOCKER],
+    githubLink: 'https://github.com/julioceno/ticket-easy/',
+  },
   {
     id: '689eb5bd-64aa-4e48-a70e-a8938df500e8',
     title: 'The Barber Studio',
