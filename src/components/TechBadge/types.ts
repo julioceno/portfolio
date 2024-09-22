@@ -53,6 +53,7 @@ export enum TechEnum {
   AWS = 'AWS',
   AWS_S3 = "AWS_S3",
   AWS_SQS = "AWS_SQS",
+  AWS_SNS = "AWS_SNS",
   AWS_EC2 = "AWS_EC2",
   AWS_EKS = "AWS_EKS",
   AWS_LAMBDA = "AWS_LAMBDA",

@@ -6,6 +6,7 @@ import InstagramIcon from '../../../public/contacts/instagram.svg';
 import LinkedinIcon from '../../../public/contacts/linkedin.svg';
 import TelephoneIcon from '../../../public/contacts/telephone.svg';
 import WhatsappIcon from '../../../public/contacts/whatsapp.svg';
+import YouTubeIcon from '../../../public/contacts/youtube.svg';
 
 export const contacts: IContactProps[] = [
   {
@@ -19,6 +20,12 @@ export const contacts: IContactProps[] = [
     link: SocialMediaEnum.LINKEDIN,
     preview: 'Sinta-se a vontade para enviar uma solicitação de conexão para mim no linkedin',
     title: 'Linkedin',
+  },
+  {
+    image: YouTubeIcon,
+    link: SocialMediaEnum.YOUTUBE,
+    preview: 'Venha aprender comigo no meu canal do Youtube',
+    title: 'Youtube',
   },
   {
     image: InstagramIcon,

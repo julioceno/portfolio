@@ -5,4 +5,5 @@ export enum SocialMediaEnum {
   WHATSAPP = 'https://whatsa.me/5521965722239',
   GMAIL = 'mailto:juliocenolima@gmail.com',
   TELPHONE = 'tel:21965722239',
+  YOUTUBE = "https://www.youtube.com/@devmeioamargo"
 }

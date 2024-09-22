@@ -44,6 +44,18 @@ export const projects: IProjectCardProps[] = [
     techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT, TechEnum.GO, TechEnum.GINGONIC, TechEnum.MICROSERVICES, TechEnum.AWS_LAMBDA, TechEnum.AWS_EVENTBRIDGE, TechEnum.AWS_SQS, TechEnum.MONGODB, TechEnum.POSTGRESQL, TechEnum.DOCKER],
     githubLink: 'https://github.com/julioceno/ticket-easy/',
   },
+  { 
+    id: "71bebb7f-8f1c-4144-9d67-dc53b7d568c3",
+    title: "Easy Station", 
+    images: [EasyStation1],
+    preview: "Api de um produto de gerenciamento de estacionamentos. Cuida da gestão de cada empresa desde a parte operacional até a parte financeira mensurando quanto o cliente deve pagar no ato de saída.",
+    paragraphs: [
+      "Api de um produto de gerenciamento de estacionamentos. Cuida da gestão de cada empresa desde a parte operacional até a parte financeira mensurando quanto o cliente deve pagar no ato de saída.",
+      "Projeto foi divido em dois serviços diferentes, um é o SSO que vai cuidar de toda parte de autenticação e gerenciamento de usuários. O outro é o management, que vai cuidar de toda regra de negócio do sistema."
+    ],
+    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT, TechEnum.SPRING_SECURITY, TechEnum.GRPC, TechEnum.JPA, TechEnum.MONGODB, TechEnum.POSTGRESQL, TechEnum.FLYWAY, TechEnum.DOCKER, TechEnum.JUNIT, TechEnum.MOCKITO],
+    githubLink: "https://github.com/julioceno/easy-station"
+  },
   {
     id: '689eb5bd-64aa-4e48-a70e-a8938df500e8',
     title: 'The Barber Studio',
@@ -57,18 +69,6 @@ export const projects: IProjectCardProps[] = [
     techs: [TechEnum.REACT, TechEnum.NEXT, TechEnum.TYPESCRIPT, TechEnum.TAILWIND, TechEnum.FRAMER_MOTION],
     applicationLink: 'https://thebarberstudio.com.br/',
     githubLink: 'https://github.com/julioceno/the-barber-studio/',
-  },
-  { 
-    id: "71bebb7f-8f1c-4144-9d67-dc53b7d568c3",
-    title: "Easy Station", 
-    images: [EasyStation1],
-    preview: "Api de um produto de gerenciamento de estacionamentos. Cuida da gestão de cada empresa desde a parte operacional até a parte financeira mensurando quanto o cliente deve pagar no ato de saída.",
-    paragraphs: [
-      "Api de um produto de gerenciamento de estacionamentos. Cuida da gestão de cada empresa desde a parte operacional até a parte financeira mensurando quanto o cliente deve pagar no ato de saída.",
-      "Projeto foi divido em dois serviços diferentes, um é o SSO que vai cuidar de toda parte de autenticação e gerenciamento de usuários. O outro é o management, que vai cuidar de toda regra de negócio do sistema."
-    ],
-    techs: [TechEnum.JAVA, TechEnum.SPRING_BOOT, TechEnum.SPRING_SECURITY, TechEnum.GRPC, TechEnum.JPA, TechEnum.MONGODB, TechEnum.POSTGRESQL, TechEnum.FLYWAY, TechEnum.DOCKER, TechEnum.JUNIT, TechEnum.MOCKITO],
-    githubLink: "https://github.com/julioceno/easy-station"
   },
   {
     id: 'c01be456-bb9d-41e8-84b2-73b0b5d05e9e',
@@ -86,6 +86,18 @@ export const projects: IProjectCardProps[] = [
     githubLink: 'https://github.com/julioceno/drive-more',
   },
   {
+    id: '5c731167-3f58-43ac-a528-f45a04a046ee',
+    title: 'Planner',
+    images: [Planner1, Planner2, Planner3, Planner4 ],
+    preview:
+      'Uma aplicação desenvolvida desde o mobile até o backend, focada em organizar amigos a organizar suas viagens com diversas funcionalidades para o grupo ter o máximo da viagem desde seu planejamento até o final da viagem.',
+    paragraphs: [
+      'Uma aplicação desenvolvida desde o mobile até o backend, focada em organizar amigos a organizar suas viagens com diversas funcionalidades para o grupo ter o máximo da viagem desde seu planejamento até o final da viagem.',
+    ],
+    techs: [TechEnum.REACT_NATIVE, TechEnum.EXPO, TechEnum.TAILWIND, TechEnum.TYPESCRIPT, TechEnum.JAVA, TechEnum.SPRING_BOOT],
+    githubLink: 'https://github.com/julioceno/Planner/',
+  },
+  {
     id: '062e29c4-832d-4609-a9f8-0c328fbdf7b4',
     title: 'Informaq',
     images: [Informaq1, Informaq2, Informaq3],
@@ -98,18 +110,6 @@ export const projects: IProjectCardProps[] = [
     techs: [TechEnum.REACT, TechEnum.TAILWIND, TechEnum.FRAMER_MOTION],
     applicationLink: 'https://informaq.vercel.app/',
     githubLink: 'https://github.com/julioceno/informaq/',
-  },
-  {
-    id: '5c731167-3f58-43ac-a528-f45a04a046ee',
-    title: 'Planner',
-    images: [Planner1, Planner2, Planner3, Planner4 ],
-    preview:
-      'Uma aplicação desenvolvida desde o mobile até o backend, focada em organizar amigos a organizar suas viagens com diversas funcionalidades para o grupo ter o máximo da viagem desde seu planejamento até o final da viagem.',
-    paragraphs: [
-      'Uma aplicação desenvolvida desde o mobile até o backend, focada em organizar amigos a organizar suas viagens com diversas funcionalidades para o grupo ter o máximo da viagem desde seu planejamento até o final da viagem.',
-    ],
-    techs: [TechEnum.REACT_NATIVE, TechEnum.EXPO, TechEnum.TAILWIND, TechEnum.TYPESCRIPT, TechEnum.JAVA, TechEnum.SPRING_BOOT],
-    githubLink: 'https://github.com/julioceno/Planner/',
   },
   {
     id: "0d3e3f78-20c4-4e13-9c25-347019c9e8f7",

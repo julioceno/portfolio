@@ -5,6 +5,7 @@ import AwsEksIcon from '../../../public/techs/aws-eks.svg';
 import AwsEventBridgeIcon from '../../../public/techs/aws-event-bridge.svg';
 import AwsLambdaIcon from '../../../public/techs/aws-lambda.svg';
 import AwsS3Icon from '../../../public/techs/aws-s3.svg';
+import AwsSnsIcon from '../../../public/techs/aws-sns.svg';
 import AwsSqsIcon from '../../../public/techs/aws-sqs.svg';
 import AWSIcon from '../../../public/techs/aws.svg';
 import CssIcon from '../../../public/techs/css.svg';
@@ -282,6 +283,11 @@ export const techsArray: ITech[] = [
     name: TechEnum.AWS_SQS,
     icon: AwsSqsIcon,
     label: "AWS SQS"
+  },
+  {
+    name: TechEnum.AWS_SNS,
+    icon: AwsSnsIcon,
+    label: "AWS SNS"
   },
   {
     name: TechEnum.AWS_EC2,

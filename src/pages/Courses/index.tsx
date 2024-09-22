@@ -5,7 +5,7 @@ import { courses } from './courses';
 import { techs as techsArray } from './techs';
 
 export function Courses() {
-  const [isExpand, setIsExpand] = useState(false);
+  const [isExpand] = useState(true);
   const [techs, setTechs] = useState<TechEnumKeys[]>([]);
 
   useEffect(() => {
@@ -27,12 +27,12 @@ export function Courses() {
             {techs.map((tech) => (
               <TechBadge name={tech} hasShadow />
             ))}
-            <button
+            {/*<button
               className='text-xs self-end hover:underline text-gray-600 dark:text-gray-300'
               onClick={() => setIsExpand(!isExpand)}
             >
               {isExpand ? 'Mostrar menos...' : 'Mostrar mais...'}
-            </button>
+            </button> */}
           </div>
         </section>
         <section className='flex flex-col gap-3 md:gap-5 '>
