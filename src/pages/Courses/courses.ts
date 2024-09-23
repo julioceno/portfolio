@@ -13,6 +13,7 @@ import UnicesumarPhoto from '../../../public/courses/unicesumar.svg';
 import GoLangCourseCertificate from '../../../public/certificate/go-lang.pdf';
 import JavaCertificate from '../../../public/certificate/java-course.pdf';
 import NlwJourneyDevops from '../../../public/certificate/nlw-journey-devops.pdf';
+import NlwJourneyJava from '../../../public/certificate/nlw-journey-java.pdf';
 import NlwJourneyReactNative from '../../../public/certificate/nlw-journey-react-native.pdf';
 import TailwindCertificate from '../../../public/certificate/tailwind-course.pdf';
 import WeekJsExpertCertificate from '../../../public/certificate/week-js-expert-07.pdf';
@@ -56,17 +57,17 @@ export const courses: ICourseCardProps[] = [
     certificate: GoLangCourseCertificate
   },
   {
-    image: NlwJourneyPhoto, 
-    title: 'NLW Journey - Devops',
-    preview:"Subindo uma aplicação em container docker dentro de um kubernetes para a AWS no serviço EC2. Criando manifestos para controlar determinadas politicas no processo de deploy.",
+    image: NlwJourneyPhoto,
+    title: 'NLW Journey - Java',
+    preview:"Criando uma aplicação para organizar uma viagem em grupo. Treinando conceitos de Java Spring utilziando flyway para controle de migrations e persistindo os dados em um banco de dados através do JPA.",
     techs: [
-      TechEnum.DOCKER,
-      TechEnum.AWS,
-      TechEnum.AWS_EKS,
-      TechEnum.KUBERNETES,
-      TechEnum.TERRAFORM,
+      TechEnum.JAVA,
+      TechEnum.SPRING_BOOT,
+      TechEnum.JPA,
+      TechEnum.H2_CONSOLE,
+      TechEnum.FLYWAY
     ],
-    certificate: NlwJourneyDevops,
+    certificate: NlwJourneyJava,
   },
   {
     image: NlwJourneyPhoto, 
@@ -92,19 +93,6 @@ export const courses: ICourseCardProps[] = [
     ],
     certificate: NlwJourneyReactNative,
   },
-  /*{
-    image: NlwJourneyPhoto,
-    title: 'NLW Journey - Java',
-    preview:"Criando uma aplicação para organizar uma viagem em grupo. Treinando conceitos de Java Spring utilziando flyway para controle de migrations e persistindo os dados em um banco de dados através do JPA.",
-    techs: [
-      TechEnum.JAVA,
-      TechEnum.SPRING_BOOT,
-      TechEnum.JPA,
-      TechEnum.H2_CONSOLE,
-      TechEnum.FLYWAY
-    ],
-    certificate: NlwJourneyJava,
-  }, */
   {
     image: TailwindPhoto,
     title: 'Tailwind CSS do zero ao avançado + Projetos',

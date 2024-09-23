@@ -88,7 +88,7 @@ export const projects: IProjectCardProps[] = [
   {
     id: '5c731167-3f58-43ac-a528-f45a04a046ee',
     title: 'Planner',
-    images: [Planner1, Planner2, Planner3, Planner4 ],
+    images: [Planner1, Planner2, Planner3, Planner4],
     preview:
       'Uma aplicação desenvolvida desde o mobile até o backend, focada em organizar amigos a organizar suas viagens com diversas funcionalidades para o grupo ter o máximo da viagem desde seu planejamento até o final da viagem.',
     paragraphs: [
